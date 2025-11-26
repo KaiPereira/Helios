@@ -23,3 +23,12 @@ Next, I need to add a ferrite bead on VDDA to filter the high frequency noise so
 I decided to use the GZ1608D601TF ferrite bead, because it has filtering at 600 ohms, and my MCU isn't drawing much current so I don't need anything crazy, and it'll have low drop:
 
 ![[Pasted image 20251126062939.png]]
+
+I also added some decoupling after the ferrite bead, a bulk to smooth the voltage drop, and a smaller one for the MCU:
+
+![[Pasted image 20251126064133.png]]
+
+And then there's 4 VDD pins (one VDD_USB), and I already did VDDA, so I do one bulk cap for the group, and then one 100nF per VDD pin:
+
+![[Pasted image 20251126065419.png]]
+
