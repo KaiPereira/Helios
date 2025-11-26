@@ -19,3 +19,7 @@ Next, I'm going to start on the MCU! I'm using the STM32L072 because it's really
 ![[Pasted image 20251126061833.png]]
 
 Next, I need to add a ferrite bead on VDDA to filter the high frequency noise so it doesn't affect the analog aspects of my MCU!
+
+I decided to use the GZ1608D601TF ferrite bead, because it has filtering at 600 ohms, and my MCU isn't drawing much current so I don't need anything crazy, and it'll have low drop:
+
+![[Pasted image 20251126062939.png]]
