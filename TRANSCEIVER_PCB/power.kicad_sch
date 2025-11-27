@@ -1614,32 +1614,38 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:SPV1050TTR"
+		(symbol "kai-library:SPV1050TTR"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 21.59 0)
+				(at -15.2663 20.355 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Value" "SPV1050TTR"
-				(at 0 -16.51 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:WQFN-20_L3.0-W3.0-P0.40-BL-EP1.7"
-				(at 0 -19.05 0)
+			(property "Footprint" "SPV1050TTR:QFN40P300X300X100-21N"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -1661,412 +1667,473 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C5181469"
-				(at 0 -21.59 0)
+			(property "MF" "STMicroelectronics"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "SPV1050TTR_0_1"
+			(property "Description_1" "Charger IC Multi-Chemistry 20-VFQFPN (3x3)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "VFQFN-20 STMicroelectronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/SPV1050TTR/STMicroelectronics/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SPV1050TTR/STMicroelectronics/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "SPV1050TTR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "ST microelectronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "SPV1050TTR_0_0"
 				(rectangle
-					(start -15.24 13.97)
-					(end 15.24 -13.97)
+					(start -15.24 -20.32)
+					(end 15.24 20.32)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
 					)
 				)
-				(circle
-					(center -13.97 12.7)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+				(text ">VALUE"
+					(at -15.2636 -22.8954 0)
+					(effects
+						(font
+							(size 1.272 1.272)
+						)
+						(justify left bottom)
 					)
 				)
-				(pin unspecified line
-					(at -17.78 11.43 0)
-					(length 2.54)
+				(pin input line
+					(at -20.32 17.78 0)
+					(length 5.08)
 					(name "MPP"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at -17.78 8.89 0)
-					(length 2.54)
+				(pin input line
+					(at -20.32 15.24 0)
+					(length 5.08)
 					(name "MPP_SET"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at -17.78 6.35 0)
-					(length 2.54)
+				(pin input line
+					(at -20.32 12.7 0)
+					(length 5.08)
 					(name "MPP_REF"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at -17.78 3.81 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -17.78 1.27 0)
-					(length 2.54)
+				(pin input line
+					(at -20.32 10.16 0)
+					(length 5.08)
 					(name "LDO1_EN"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at -17.78 -1.27 0)
-					(length 2.54)
+				(pin input line
+					(at -20.32 7.62 0)
+					(length 5.08)
 					(name "LDO2_EN"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "6"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at -17.78 -3.81 0)
-					(length 2.54)
-					(name "~{BATT_CHG}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -17.78 -6.35 0)
-					(length 2.54)
-					(name "~{BATT_CONN}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -17.78 -8.89 0)
-					(length 2.54)
+				(pin input line
+					(at -20.32 5.08 0)
+					(length 5.08)
 					(name "EOC"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "9"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at -17.78 -11.43 0)
-					(length 2.54)
+				(pin input line
+					(at -20.32 2.54 0)
+					(length 5.08)
 					(name "UVP"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "10"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 16.51 270)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 17.78 11.43 180)
-					(length 2.54)
-					(name "IN_HV"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 17.78 8.89 180)
-					(length 2.54)
-					(name "L_HV"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 17.78 6.35 180)
-					(length 2.54)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 17.78 3.81 180)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 17.78 1.27 180)
-					(length 2.54)
-					(name "IN_LV"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 17.78 -1.27 180)
-					(length 2.54)
-					(name "STORE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 17.78 -3.81 180)
-					(length 2.54)
-					(name "BATT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 17.78 -6.35 180)
-					(length 2.54)
+				(pin input line
+					(at -20.32 0 0)
+					(length 5.08)
 					(name "CONF"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "13"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at 17.78 -8.89 180)
-					(length 2.54)
-					(name "LOD2"
+				(pin input line
+					(at -20.32 -2.54 0)
+					(length 5.08)
+					(name "L_HV"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "12"
+					(number "19"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at 17.78 -11.43 180)
-					(length 2.54)
+				(pin input line
+					(at -20.32 -7.62 0)
+					(length 5.08)
+					(name "IN_HV"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -10.16 0)
+					(length 5.08)
+					(name "IN_LV"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -15.24 0)
+					(length 5.08)
+					(name "BATT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -17.78 0)
+					(length 5.08)
+					(name "STORE"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 15.24 180)
+					(length 5.08)
+					(name "BATT_CHG"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 12.7 180)
+					(length 5.08)
+					(name "BATT_CONN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 7.62 180)
+					(length 5.08)
 					(name "LDO1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "11"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 5.08 180)
+					(length 5.08)
+					(name "LDO2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -10.16 180)
+					(length 5.08)
+					(name "EXP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -12.7 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -15.24 180)
+					(length 5.08)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -2616,16 +2683,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 72.39) (xy 226.06 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebc93201-3f99-48d0-994d-05fb1cb6a357")
-	)
-	(wire
-		(pts
 			(xy 106.68 60.96) (xy 106.68 59.69)
 		)
 		(stroke
@@ -2777,43 +2834,43 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 226.06 72.39 0)
+		(lib_id "kai-library:SPV1050TTR")
+		(at 214.63 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1ccc02d3-d011-4b56-907b-0323916c5e00")
-		(property "Reference" "#PWR018"
-			(at 226.06 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 226.06 77.47 0)
+		(uuid "00237bd7-fee4-405b-90d9-c9a34866e60f")
+		(property "Reference" "U3"
+			(at 214.63 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 226.06 72.39 0)
+		(property "Value" "SPV1050TTR"
+			(at 214.63 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Footprint" "SPV1050TTR:QFN40P300X300X100-21N"
+			(at 214.63 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 72.39 0)
+			(at 214.63 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2821,22 +2878,169 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 226.06 72.39 0)
+		(property "Description" ""
+			(at 214.63 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "MF" "STMicroelectronics"
+			(at 214.63 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Charger IC Multi-Chemistry 20-VFQFPN (3x3)"
+			(at 214.63 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "VFQFN-20 STMicroelectronics"
+			(at 214.63 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 214.63 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SPV1050TTR/STMicroelectronics/view-part/?ref=eda"
+			(at 214.63 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SPV1050TTR/STMicroelectronics/view-part/?ref=snap"
+			(at 214.63 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SPV1050TTR"
+			(at 214.63 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 214.63 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "ST microelectronics"
+			(at 214.63 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "19"
+			(uuid "dd84ec23-0fca-4935-8fad-33ea38565c8c")
 		)
 		(pin "1"
-			(uuid "3137b8fd-061a-4945-af7f-2bb921ba1199")
+			(uuid "45ff8867-c141-4ec0-bba2-152047ded72a")
+		)
+		(pin "5"
+			(uuid "b09537f0-e585-4423-95ae-67958dfc0498")
+		)
+		(pin "3"
+			(uuid "bf65b6e2-0a2a-43d0-b5d7-444c105db9c2")
+		)
+		(pin "18"
+			(uuid "2f01538a-f494-4462-823a-ca9f7fb19548")
+		)
+		(pin "2"
+			(uuid "50cd4bc5-5689-4099-a562-f01bcc413443")
+		)
+		(pin "6"
+			(uuid "a866f082-971c-4597-a2eb-ff627aa065a2")
+		)
+		(pin "8"
+			(uuid "cde8b258-9229-48f0-8708-001e7272b8dc")
+		)
+		(pin "12"
+			(uuid "d81ca1ea-3751-4337-9ae4-318b9a7f4a0e")
+		)
+		(pin "13"
+			(uuid "ea2bb5e1-a1fd-4085-96d4-d2672fff1552")
+		)
+		(pin "4"
+			(uuid "69dd3c4d-3bd8-4f55-9d35-0a2de8dc1775")
+		)
+		(pin "21"
+			(uuid "533ea252-0ac0-4ec1-98d2-6b3bcbe82e71")
+		)
+		(pin "14"
+			(uuid "23e7910a-4117-40dc-a9db-9bb7b84f36e0")
+		)
+		(pin "15"
+			(uuid "8f9b9695-797e-4eb7-96a1-01ad8a177ff7")
+		)
+		(pin "7"
+			(uuid "13435c46-0d18-4eca-b4f2-ce71d0f89cae")
+		)
+		(pin "16"
+			(uuid "548c6bae-9bc2-4b51-9175-05b8afeb82de")
+		)
+		(pin "9"
+			(uuid "ccbc899d-6e35-4d1f-9b64-175dfa463f04")
+		)
+		(pin "11"
+			(uuid "34df976e-0e8f-4fd5-bc83-db3215bf5ec4")
+		)
+		(pin "20"
+			(uuid "9d447495-58a0-4125-b0fc-ea48487fe019")
+		)
+		(pin "10"
+			(uuid "0806e56a-a344-4305-92b7-4ce981db4394")
 		)
 		(instances
 			(project ""
 				(path "/9c08fd59-3255-435c-aa80-e4f1f895065c/d34a943d-5c52-4d96-97b8-7c9b31c89da2"
-					(reference "#PWR018")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -3330,140 +3534,6 @@
 			(project ""
 				(path "/9c08fd59-3255-435c-aa80-e4f1f895065c/d34a943d-5c52-4d96-97b8-7c9b31c89da2"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:SPV1050TTR")
-		(at 226.06 54.61 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3139d0f-c4f8-4e2b-a09f-cecf61a353bb")
-		(property "Reference" "U3"
-			(at 226.06 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SPV1050TTR"
-			(at 226.06 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:WQFN-20_L3.0-W3.0-P0.40-BL-EP1.7"
-			(at 226.06 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 226.06 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C5181469"
-			(at 226.06 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "c7e80416-be51-453a-af63-c8808fa3721c")
-		)
-		(pin "14"
-			(uuid "ac02ab94-ec81-42ac-983e-0d8d50799c3a")
-		)
-		(pin "15"
-			(uuid "37d05544-6524-44e0-913b-5f4143cf5b63")
-		)
-		(pin "1"
-			(uuid "95284a12-570c-4066-a359-2af248fe3598")
-		)
-		(pin "7"
-			(uuid "a6208544-876f-491c-a075-9463ef73eb94")
-		)
-		(pin "2"
-			(uuid "5cbe8f62-14a2-4022-a4e7-10a98cd8aeea")
-		)
-		(pin "3"
-			(uuid "a1f328ef-ee9b-4276-9e6f-e192ccb563a4")
-		)
-		(pin "17"
-			(uuid "ecd24b78-7c59-4976-9ba8-170cda50dc5d")
-		)
-		(pin "18"
-			(uuid "c1665ed1-5098-4f9c-a1e1-e4723e18d131")
-		)
-		(pin "20"
-			(uuid "a78709d1-db68-435e-b339-e34ced9b1d50")
-		)
-		(pin "19"
-			(uuid "59a4ba70-9b2e-436b-93a8-a86fd2f2a2d2")
-		)
-		(pin "21"
-			(uuid "4fc5d4bb-64bb-4e8e-afc7-4f888adeb521")
-		)
-		(pin "6"
-			(uuid "b25b8b15-8b38-42d2-83b3-ce932de55a9f")
-		)
-		(pin "12"
-			(uuid "14970b3c-1738-428e-b2fa-2ff41531b2ad")
-		)
-		(pin "13"
-			(uuid "f555e145-8fa0-49a7-93b2-487afe79493a")
-		)
-		(pin "11"
-			(uuid "904071a0-7350-4b07-ab00-b64c4c84f4df")
-		)
-		(pin "10"
-			(uuid "fe594bf8-ef6d-4047-b0d1-aad86ed2fa40")
-		)
-		(pin "16"
-			(uuid "f1a302f9-69a4-49d7-a593-9ede8e5e6c3f")
-		)
-		(pin "9"
-			(uuid "782a5d21-83ad-4740-859c-25d077771868")
-		)
-		(pin "8"
-			(uuid "d9562911-ea21-4f7c-931e-2d7488e221c1")
-		)
-		(pin "4"
-			(uuid "072e4df6-4d8c-46fb-8dac-779cf3bb2bff")
-		)
-		(instances
-			(project ""
-				(path "/9c08fd59-3255-435c-aa80-e4f1f895065c/d34a943d-5c52-4d96-97b8-7c9b31c89da2"
-					(reference "U3")
 					(unit 1)
 				)
 			)
