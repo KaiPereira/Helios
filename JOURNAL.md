@@ -32,3 +32,12 @@ And then there's 4 VDD pins (one VDD_USB), and I already did VDDA, so I do one b
 
 ![[Pasted image 20251126065419.png]]
 
+Next, I need to add my boot and reset button. The reset button has a 100nF cap so that the module doesn't accidentally reset from a voltage spike!
+
+![[Pasted image 20251126163436.png]]
+
+Next, I need to work on my power systems! I'm going to add USB-C so that I can actually program this thing:
+
+![[Pasted image 20251126163624.png]]
+
+You can see I use a ferrite bead on shield so that it doesn't act as a weak antenna, and I also added ESD protection!
