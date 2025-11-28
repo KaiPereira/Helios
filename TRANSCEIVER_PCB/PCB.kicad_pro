@@ -420,6 +420,10 @@
     [
       "d34a943d-5c52-4d96-97b8-7c9b31c89da2",
       "Power"
+    ],
+    [
+      "ba3534da-3fb6-4419-8db5-6408ed4f4de1",
+      "RF"
     ]
   ],
   "text_variables": {}
