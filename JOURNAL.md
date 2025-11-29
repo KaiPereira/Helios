@@ -12,33 +12,33 @@ The project is going to be a little solar transceiver and receiver, the transcei
 
 So the first thing I did is flesh out some of the details. I have a very good vision of the project in my head, so I didn't write too much down, but I got some of the components down:
 
-![[Pasted image 20251126061624.png]]
+![Pasted image 20251126061624.png](images/Pasted%20image%2020251126061624.png)
 
 Next, I'm going to start on the MCU! I'm using the STM32L072 because it's really low power and I don't need too many peripherals! So I wired the really simple stuff:
 
-![[Pasted image 20251126061833.png]]
+![Pasted image 20251126061833.png](images/Pasted%20image%2020251126061833.png)
 
 Next, I need to add a ferrite bead on VDDA to filter the high frequency noise so it doesn't affect the analog aspects of my MCU!
 
 I decided to use the GZ1608D601TF ferrite bead, because it has filtering at 600 ohms, and my MCU isn't drawing much current so I don't need anything crazy, and it'll have low drop:
 
-![[Pasted image 20251126062939.png]]
+![Pasted image 20251126062939.png](images/Pasted%20image%2020251126062939.png)
 
 I also added some decoupling after the ferrite bead, a bulk to smooth the voltage drop, and a smaller one for the MCU:
 
-![[Pasted image 20251126064133.png]]
+![Pasted image 20251126064133.png](images/Pasted%20image%2020251126064133.png)
 
 And then there's 4 VDD pins (one VDD_USB), and I already did VDDA, so I do one bulk cap for the group, and then one 100nF per VDD pin:
 
-![[Pasted image 20251126065419.png]]
+![Pasted image 20251126065419.png](images/Pasted%20image%2020251126065419.png)
 
 Next, I need to add my boot and reset button. The reset button has a 100nF cap so that the module doesn't accidentally reset from a voltage spike!
 
-![[Pasted image 20251126163436.png]]
+![Pasted image 20251126163436.png](images/Pasted%20image%2020251126163436.png)
 
 Next, I need to work on my power systems! I'm going to add USB-C so that I can actually program this thing:
 
-![[Pasted image 20251126163624.png]]
+![Pasted image 20251126163624.png](images/Pasted%20image%2020251126163624.png)
 
 You can see I use a ferrite bead on shield so that it doesn't act as a weak antenna, and I also added ESD protection!
 
@@ -50,13 +50,13 @@ Day 2 is all about getting the main systems in so that the board is actually pro
 
 So the first thing I added was the connectors for the battery and solar panels! I decided to use a screw terminal for the solar panels so that like 90% of solar panels would work with this board! And then the battery will probably just be a JST connector or screw terminals, I need to do a bit more research on the most common thing to use:
 
-![[Pasted image 20251129142222.png]]
+![Pasted image 20251129142222.png](images/Pasted%20image%2020251129142222.png)
 
 Next I need to add the actual energy harvester for the solar panels. This handles everything from the protection, to charging, etc, it's really cool! I decided to use the SPV1050 because it's really low power and not as complicated as some of the other modules.
 
 This wiring took me FOREVER, but I got it pretty clean:
 
-![[Pasted image 20251129142350.png]]
+![Pasted image 20251129142350.png](images/Pasted%20image%2020251129142350.png)
 
 It took me quite a long time for a couple reasons:
 - The voltage divider was really confusing, I ended up just copying another design and tried to BOM optimize it the most possible!
