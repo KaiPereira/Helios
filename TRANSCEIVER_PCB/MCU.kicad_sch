@@ -2810,7 +2810,7 @@
 		(uuid "ff48a57d-c242-43d8-8d6e-9dd1b0f00308")
 	)
 	(global_label "OSC32_OUT"
-		(shape input)
+		(shape output)
 		(at 212.09 97.79 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2832,7 +2832,7 @@
 		)
 	)
 	(global_label "OSC32_IN"
-		(shape output)
+		(shape input)
 		(at 212.09 87.63 0)
 		(fields_autoplaced yes)
 		(effects
