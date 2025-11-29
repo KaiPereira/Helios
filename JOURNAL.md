@@ -4,7 +4,7 @@ author: Kai Pereira
 description: Solar powered, LoRa weather station transceiver and receiver!
 created_at: 2025-10-26
 ---
-## Day 1 - Starting Helios :D
+## Day 1 - Starting Helios :D - 5 Hours
 
 I've decided to work on speedrunning a little project to learn more about radio's and to improve my STM32 skills, because I absolutely love their SoC's!!
 
@@ -44,7 +44,7 @@ You can see I use a ferrite bead on shield so that it doesn't act as a weak ante
 
 And that kind of concluded my first day working on the project! 
 
-## Day 2 - Main Systems
+## Day 2 - Main Systems - 6 Hours
 
 Day 2 is all about getting the main systems in so that the board is actually programmable and works, but without any of the real features.
 
@@ -63,4 +63,14 @@ It took me quite a long time for a couple reasons:
 - I wanted to keep the schematic really clean, so I was continuously modifying the symbol so that it looks really good!
 - And then the actual wiring was pretty difficult because the application circuit wasn't complete!
 
-I learned a lot about how the different parts like how the resistor divider actually works and also on storing stuff with caps.
+I learned a lot about how the different parts like how the resistor divider actually works and also on storing energy with caps.
+
+Next I needed to step down the LiPo 3.7V to 3V3, I decided not to add battery protection to keep low overhead complexity and most of them include protection these days too! I chose an LDO with a medium dropout, low current, and very low quiescant, because I want something good for battery applications but enough to keep it active!
+
+![[Pasted image 20251129143007.png]]
+
+Next, I tuned up my MCU schematic and double checked stuff, and realized I missed an external crystal I should probably have! I added the 32.768 KHz crystal so that I could keep track of the time in low-power mode so I could send signals accurately from my antenna!
+
+![[Pasted image 20251129143206.png]]
+
+And then I tuned out for the day, because the SPV1050 wiring took me absolutely forever!! I'm ready to start working on the actual antenna stuff now though, and I think I can lock in and get a bunch done at once!

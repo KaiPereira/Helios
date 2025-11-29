@@ -183,14 +183,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "222e0ef99573c147",
+  "active": "e01344deb0574d50",
   "lastOpenFiles": [
+    "images/Pasted image 20251129143206.png",
+    "JOURNAL.md",
+    "TRANSCEIVER_PCB/#auto_saved_files#",
+    "TRANSCEIVER_PCB/_autosave-power.kicad_sch",
+    "images/Pasted image 20251129143007.png",
     "JOURNAL.md~",
     "images/Pasted image 20251129142350.png",
     "images/Pasted image 20251129142222.png",
     "Pasted image 20251126163624.png",
     "Pasted image 20251126163544.png",
-    "JOURNAL.md",
     "Pasted image 20251126163522.png",
     "images/Pasted image 20251126163436.png",
     "images/Pasted image 20251126065419.png",
@@ -202,7 +206,6 @@
     "PCB/PCB-backups/PCB-2025-11-26_062656.zip",
     "images",
     "PCB/PCB-backups/PCB-2025-11-26_061903.zip",
-    "images/Pasted image 20251126061833.png",
     "PCB/~PCB.kicad_sch.lck"
   ]
 }
