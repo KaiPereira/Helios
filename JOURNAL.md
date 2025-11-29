@@ -41,3 +41,26 @@ Next, I need to work on my power systems! I'm going to add USB-C so that I can a
 ![[Pasted image 20251126163624.png]]
 
 You can see I use a ferrite bead on shield so that it doesn't act as a weak antenna, and I also added ESD protection!
+
+And that kind of concluded my first day working on the project! 
+
+## Day 2 - Main Systems
+
+Day 2 is all about getting the main systems in so that the board is actually programmable and works, but without any of the real features.
+
+So the first thing I added was the connectors for the battery and solar panels! I decided to use a screw terminal for the solar panels so that like 90% of solar panels would work with this board! And then the battery will probably just be a JST connector or screw terminals, I need to do a bit more research on the most common thing to use:
+
+![[Pasted image 20251129142222.png]]
+
+Next I need to add the actual energy harvester for the solar panels. This handles everything from the protection, to charging, etc, it's really cool! I decided to use the SPV1050 because it's really low power and not as complicated as some of the other modules.
+
+This wiring took me FOREVER, but I got it pretty clean:
+
+![[Pasted image 20251129142350.png]]
+
+It took me quite a long time for a couple reasons:
+- The voltage divider was really confusing, I ended up just copying another design and tried to BOM optimize it the most possible!
+- I wanted to keep the schematic really clean, so I was continuously modifying the symbol so that it looks really good!
+- And then the actual wiring was pretty difficult because the application circuit wasn't complete!
+
+I learned a lot about how the different parts like how the resistor divider actually works and also on storing stuff with caps.
