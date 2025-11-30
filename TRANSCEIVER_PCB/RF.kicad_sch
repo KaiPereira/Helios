@@ -1373,6 +1373,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 111.76) (xy 137.16 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02735d89-d4e6-46c4-b281-41d0ba755659")
+	)
+	(wire
+		(pts
 			(xy 104.14 106.68) (xy 106.68 106.68)
 		)
 		(stroke
@@ -1500,6 +1510,16 @@
 			(type default)
 		)
 		(uuid "3ed3f100-fa23-420c-b176-bfe12a49797e")
+	)
+	(wire
+		(pts
+			(xy 104.14 88.9) (xy 106.68 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fb90ce0-362c-4716-a13b-d9ac0bcc2e29")
 	)
 	(wire
 		(pts
@@ -1693,6 +1713,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 81.28) (xy 106.68 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9bede43-cd1a-41a2-bb2a-67da6bbf2d5a")
+	)
+	(wire
+		(pts
 			(xy 116.84 45.72) (xy 116.84 49.53)
 		)
 		(stroke
@@ -1741,6 +1771,50 @@
 		)
 		(uuid "dbcebca0-f9a9-46ee-927f-0ec96a629c8f")
 	)
+	(global_label "SX_DIO1"
+		(shape output)
+		(at 104.14 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b255ef6-5548-4b44-8bfe-d29df8fe293f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.3534 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SX_RESET"
+		(shape input)
+		(at 104.14 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7032f2a6-063a-42c8-b265-73769bdc206d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.0231 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SX_MISO"
 		(shape output)
 		(at 104.14 106.68 180)
@@ -1763,7 +1837,7 @@
 			)
 		)
 	)
-	(global_label "SX_CS"
+	(global_label "SX_NSS"
 		(shape input)
 		(at 104.14 111.76 180)
 		(fields_autoplaced yes)
@@ -1775,12 +1849,34 @@
 		)
 		(uuid "a49c5b61-8d66-440d-a15c-380c16e1d2b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.2887 111.76 0)
+			(at 94.0187 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SX_BUSY"
+		(shape output)
+		(at 139.7 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cba13d30-8717-452e-ade0-e8a9f1443f05")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.9704 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -1807,7 +1903,7 @@
 			)
 		)
 	)
-	(global_label "SX_CLK"
+	(global_label "SX_SCK"
 		(shape input)
 		(at 104.14 104.14 180)
 		(fields_autoplaced yes)
@@ -1819,7 +1915,7 @@
 		)
 		(uuid "e1bef3d7-7a3c-4f85-96cb-cf94e2535486")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.2001 104.14 0)
+			(at 94.0187 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1905,7 +2001,7 @@
 		(dnp no)
 		(uuid "416cad4b-5c23-4b32-afeb-d234af5d9d48")
 		(property "Reference" "Y2"
-			(at 55.118 64.77 90)
+			(at 55.626 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1913,7 +2009,7 @@
 			)
 		)
 		(property "Value" "32MHz"
-			(at 53.086 67.056 90)
+			(at 53.594 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1945,6 +2041,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part" "X322532MOB4SI"
+			(at 49.022 67.056 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
