@@ -2990,7 +2990,7 @@
 		)
 	)
 	(global_label "SX_DIO1"
-		(shape input)
+		(shape bidirectional)
 		(at 167.64 83.82 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3001,7 +3001,7 @@
 		)
 		(uuid "7529c0a7-a014-4b5f-b5e3-ec742fee31c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.4266 83.82 0)
+			(at 179.5379 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
