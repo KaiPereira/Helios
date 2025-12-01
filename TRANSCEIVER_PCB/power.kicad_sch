@@ -2312,20 +2312,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U3"
-				(at 0 25.4 0)
+			(property "Reference" "U"
+				(at -15.2663 20.355 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Value" "SPV1050TTR"
-				(at 0 22.86 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
 			(property "Footprint" "SPV1050TTR:QFN40P300X300X100-21N"
@@ -2504,7 +2506,25 @@
 					)
 				)
 				(pin input line
-					(at -20.32 11.43 0)
+					(at -20.32 12.7 0)
+					(length 5.08)
+					(name "MPP_REF"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 10.16 0)
 					(length 5.08)
 					(name "LDO1_EN"
 						(effects
@@ -2522,7 +2542,7 @@
 					)
 				)
 				(pin input line
-					(at -20.32 8.89 0)
+					(at -20.32 7.62 0)
 					(length 5.08)
 					(name "LDO2_EN"
 						(effects
@@ -2542,6 +2562,24 @@
 				(pin input line
 					(at -20.32 5.08 0)
 					(length 5.08)
+					(name "EOC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 2.54 0)
+					(length 5.08)
 					(name "UVP"
 						(effects
 							(font
@@ -2558,16 +2596,16 @@
 					)
 				)
 				(pin input line
-					(at -20.32 2.54 0)
+					(at -20.32 0 0)
 					(length 5.08)
-					(name "EOC"
+					(name "CONF"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "9"
+					(number "13"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2668,14 +2706,14 @@
 				(pin output line
 					(at 20.32 15.24 180)
 					(length 5.08)
-					(name "BATT_CONN"
+					(name "BATT_CHG"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "8"
+					(number "7"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2686,14 +2724,14 @@
 				(pin output line
 					(at 20.32 12.7 180)
 					(length 5.08)
-					(name "BATT_CHG"
+					(name "BATT_CONN"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "7"
+					(number "8"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2730,42 +2768,6 @@
 						)
 					)
 					(number "12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -2.54 180)
-					(length 5.08)
-					(name "MPP_REF"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 -5.08 180)
-					(length 5.08)
-					(name "CONF"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "13"
 						(effects
 							(font
 								(size 1.016 1.016)

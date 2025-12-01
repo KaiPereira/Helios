@@ -596,8 +596,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U1"
-				(at 4.6833 -40.64 0)
+			(property "Reference" "U"
+				(at -15.24 39.37 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -605,8 +605,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "STM32L072CBT6"
-				(at 4.6833 -43.18 0)
+			(property "Value" "STM32L072CBTx"
+				(at 7.62 39.37 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1303,14 +1303,14 @@
 				(pin power_in line
 					(at 2.54 40.64 270)
 					(length 2.54)
-					(name "VDD_USB"
+					(name "VDDA"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "36"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1339,14 +1339,14 @@
 				(pin power_in line
 					(at 5.08 40.64 270)
 					(length 2.54)
-					(name "VDDA"
+					(name "VDD_USB"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "36"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2261,6 +2261,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 129.54) (xy 129.54 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08b240a0-6c9c-4e69-9562-72d506083c16")
+	)
+	(wire
+		(pts
 			(xy 167.64 76.2) (xy 165.1 76.2)
 		)
 		(stroke
@@ -2771,6 +2781,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 132.08) (xy 129.54 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c93369b2-f7df-4509-a17b-10bc607edd8a")
+	)
+	(wire
+		(pts
 			(xy 213.36 97.79) (xy 218.44 97.79)
 		)
 		(stroke
@@ -3107,6 +3127,28 @@
 			)
 		)
 	)
+	(global_label "BH_SDA"
+		(shape input)
+		(at 127 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8d33bba0-0a4b-4a24-96eb-cc0aea89a5bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.8786 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SX_SCK"
 		(shape output)
 		(at 127 111.76 180)
@@ -3191,6 +3233,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BH_SCL"
+		(shape input)
+		(at 127 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b6add22f-8705-4c40-bde2-3244faa26c8f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.9391 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
