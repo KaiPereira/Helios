@@ -7719,7 +7719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "> 200mAh LiPo"
+		(property "Alt" "> 200mAh LiPo"
 			(at 151.13 62.484 0)
 			(effects
 				(font
@@ -7858,7 +7858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "> 1W Solar Panel"
+		(property "Alt" "> 1W Solar Panel"
 			(at 151.13 30.226 0)
 			(effects
 				(font

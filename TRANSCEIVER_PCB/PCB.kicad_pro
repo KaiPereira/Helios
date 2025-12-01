@@ -625,6 +625,10 @@
     [
       "ba3534da-3fb6-4419-8db5-6408ed4f4de1",
       "RF"
+    ],
+    [
+      "d50af4e1-97f7-4c5d-98c6-7894498ff45d",
+      "Sensors"
     ]
   ],
   "text_variables": {}
