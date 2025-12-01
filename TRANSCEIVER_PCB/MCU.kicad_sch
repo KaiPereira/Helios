@@ -3017,7 +3017,7 @@
 			)
 		)
 	)
-	(global_label "BMA_SCL"
+	(global_label "BME_SCL"
 		(shape bidirectional)
 		(at 127 137.16 180)
 		(fields_autoplaced yes)
@@ -3029,7 +3029,7 @@
 		)
 		(uuid "1f410972-17ba-4367-bf20-7149ca07a7b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.6183 137.16 0)
+			(at 114.5579 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3128,7 +3128,7 @@
 		)
 	)
 	(global_label "BH_SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 127 132.08 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3139,7 +3139,7 @@
 		)
 		(uuid "8d33bba0-0a4b-4a24-96eb-cc0aea89a5bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.8786 132.08 0)
+			(at 115.7673 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3238,7 +3238,7 @@
 		)
 	)
 	(global_label "BH_SCL"
-		(shape input)
+		(shape bidirectional)
 		(at 127 129.54 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3249,7 +3249,7 @@
 		)
 		(uuid "b6add22f-8705-4c40-bde2-3244faa26c8f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.9391 129.54 0)
+			(at 115.8278 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
