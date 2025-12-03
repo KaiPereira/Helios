@@ -6233,8 +6233,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "SMDRH105R-220MT"
-			(at 101.854 142.748 0)
+		(property "Part" "SPH4012H220MT"
+			(at 102.87 142.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7114,7 +7114,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 35.56 76.708 90)
 			(effects
 				(font
