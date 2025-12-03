@@ -6676,7 +6676,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "1N5819WS"
 			(at 105.7275 31.75 0)
 			(effects
 				(font
@@ -7970,7 +7970,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "1N5819WS"
 			(at 259.3975 33.02 0)
 			(effects
 				(font
@@ -8176,7 +8176,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "1N5819WS"
 			(at 173.99 133.35 0)
 			(effects
 				(font
@@ -8985,7 +8985,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "1N5819WS"
 			(at 183.1975 30.48 0)
 			(effects
 				(font
