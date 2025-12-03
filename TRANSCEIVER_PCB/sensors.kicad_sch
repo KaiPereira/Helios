@@ -622,7 +622,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "BME280"
 				(at 0 0 0)
 				(effects
 					(font
@@ -631,7 +631,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_LGA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering"
 				(at 0 0 0)
 				(effects
 					(font
@@ -640,7 +640,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -649,7 +649,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "3-in-1 sensor, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2748,24 +2748,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8b03d0ec-1df6-446f-be6c-e933ae9f7f09")
 		(property "Reference" "U9"
-			(at 49.53 66.04 0)
+			(at 36.83 64.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "~"
-			(at 49.53 66.04 0)
+		(property "Value" "BME280"
+			(at 34.29 66.802 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2777,7 +2774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf"
 			(at 49.53 66.04 0)
 			(effects
 				(font
@@ -2786,7 +2783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3-in-1 sensor, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"
 			(at 49.53 66.04 0)
 			(effects
 				(font
