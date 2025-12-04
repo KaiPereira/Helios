@@ -106,3 +106,19 @@ This just fine tunes our signal even further, and that's our RF circuit! Pretty 
 
 Next up, I want to add all the sensors onto my board.
 
+I compiled a list of different sensors I could use like temperature, humidity, pressure, soil, etc, and decided on using just 3 components and then breaking out the rest:
+- BME280: temperature, humidity, pressure
+- Capacitative soil sensor
+- BH1750: ambient light detector
+
+And then you'll be able to add your own sensors to customize it using the broken out pins!
+
+It's pretty easy to wire sensors, I did have to make/alter the symbols and go looking for some footprints, but it was relatively easy:
+
+![[Pasted image 20251204061734.png]]
+
+I decided to split the I2C for my BH1750 and the BME280 because I didn't want any extra programming overhead or to even possibly lose more energy on it.
+
+And with that, I have all the fundamentals of the board in, and now I just have to clean up the mistakes, add the pin headers and footprints, and route the board! 
+
+
