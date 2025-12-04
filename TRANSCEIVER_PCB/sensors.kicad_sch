@@ -2618,7 +2618,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 142.24 40.64 0)
 			(effects
 				(font
@@ -3123,7 +3123,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:WSOF-6_L2.6-W1.6-P0.50-TL-EP"
 			(at 234.95 55.88 0)
 			(effects
 				(font
