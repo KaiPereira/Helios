@@ -74,3 +74,22 @@ Next, I tuned up my MCU schematic and double checked stuff, and realized I misse
 ![[Pasted image 20251129143206.png]]
 
 And then I tuned out for the day, because the SPV1050 wiring took me absolutely forever!! I'm ready to start working on the actual antenna stuff now though, and I think I can lock in and get a bunch done at once!
+
+## Day 3 - RF Shenanigans
+
+Now that I have all my core logic in, I have to add the actual LoRa antenna and transceiver.
+
+There's a couple parts to this:
+- The transceiver (SX1262) sends and receives the LoRa radio signals
+- The RF switch (PE4259) switches these signals on and off with very little loss so you an just quickly send out a signal and whatnot
+- The 0900FM is a filter that cleans up the LoRa signals before they get sent off
+
+So with that in mind, I did all the wiring :D 
+
+![[Pasted image 20251203184010.png]]
+
+You'll notice a couple strange things here, the first is the crystal which is used to create a very precise clock to generate the 900 MHz frequencies, it has built in load caps so you don't need any.
+
+You'll also notice an inductor on DCC_SW which gives a higher voltage to the power amplifier on the SX1262 which will let the PA push more current and achieve a higher output power!
+
+Next you'll notice an inductor in parallel with RFO which is part of the RF filter for the power amplifier output. This basically cleans up 
