@@ -75,7 +75,7 @@ Next, I tuned up my MCU schematic and double checked stuff, and realized I misse
 
 And then I tuned out for the day, because the SPV1050 wiring took me absolutely forever!! I'm ready to start working on the actual antenna stuff now though, and I think I can lock in and get a bunch done at once!
 
-## Day 3 - RF Shenanigans
+## Day 3 - RF and Sensor Shenanigans
 
 Now that I have all my core logic in, I have to add the actual LoRa antenna and transceiver.
 
@@ -92,4 +92,17 @@ You'll notice a couple strange things here, the first is the crystal which is us
 
 You'll also notice an inductor on DCC_SW which gives a higher voltage to the power amplifier on the SX1262 which will let the PA push more current and achieve a higher output power!
 
-Next you'll notice an inductor in parallel with RFO which is part of the RF filter for the power amplifier output. This basically cleans up 
+Next you'll notice an inductor in parallel with RFO which is part of the RF filter for the power amplifier output. So PA is the power booster, and RFO is the actual signal, PA is boosting this signal and it's going through a matching network which is the capacitors and inductors to achieve a consistent 50ohm impedance.
+
+After that, it goes through the RF filter, and then onto the actual RF switch. You'll notice the signal to control the RF switch (SX_DIO2), has a very small decoupling capacitor. This is a low-pass filter or debounce cap to prevent the switch from actually turning on and off, and it's a really sensitive signal so that's why it's so small. 
+
+And then finally, you'll see what's called a Pi-L Matching Network which is a:
+- Series capacitor to provide series reactance for tuning and prevents DC from going into the antenna
+- Parallel capacitor which is part of tuning the impedance
+- Series inductor to provide more series reactance to match the impedance
+- Another parallel capacitor, for more tuning
+
+This just fine tunes our signal even further, and that's our RF circuit! Pretty complicated right! But I hope to learn a lot more about how RF works once I spend more time working on RF boards! 
+
+Next up, I want to add all the sensors onto my board.
+
