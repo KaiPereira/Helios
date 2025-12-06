@@ -75,7 +75,7 @@ Next, I tuned up my MCU schematic and double checked stuff, and realized I misse
 
 And then I tuned out for the day, because the SPV1050 wiring took me absolutely forever!! I'm ready to start working on the actual antenna stuff now though, and I think I can lock in and get a bunch done at once!
 
-## Day 3 - RF and Sensor Shenanigans
+## Day 3 - RF and Sensor Shenanigans - 8 Hours
 
 Now that I have all my core logic in, I have to add the actual LoRa antenna and transceiver.
 
@@ -132,5 +132,17 @@ I had to completely move all the pins to make it the easiest possible routing wh
 And with that, alongside some other minor changes and whatnot, the board schematic is complete!
 
 Tomorrow, I'm going to add in all the extra footprint, and hopefully get the entire layout and some routing in.
+
+## Day 4 - Footprint and PCB time
+
+Today, I really wanted to get all the footprints in, get the form factor of the pi zero 2w and also layout all the components onto the board and maybe start some routing if I have time!
+
+So I added in all the footprints which was generally pretty boring, and then I made the zero 2w form factor using some fun layout techniques (mostly aligning):
+
+![[Pasted image 20251206140810.png]]
+
+You can see how all the pins nicely go onto the headers from the MCU which took me a long time to do in the schematic, but it's definitely worth it!
+
+Now I have to lay out all the components onto my PCB, to do this, I'll first make groups, and then slowly add those onto the board.
 
 
