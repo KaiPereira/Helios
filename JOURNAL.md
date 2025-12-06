@@ -67,11 +67,11 @@ I learned a lot about how the different parts like how the resistor divider actu
 
 Next I needed to step down the LiPo 3.7V to 3V3, I decided not to add battery protection to keep low overhead complexity and most of them include protection these days too! I chose an LDO with a medium dropout, low current, and very low quiescant, because I want something good for battery applications but enough to keep it active!
 
-![[Pasted image 20251129143007.png]]
+![Pasted image 20251129143007.png](images/Pasted%20image%2020251129143007.png)
 
 Next, I tuned up my MCU schematic and double checked stuff, and realized I missed an external crystal I should probably have! I added the 32.768 KHz crystal so that I could keep track of the time in low-power mode so I could send signals accurately from my antenna!
 
-![[Pasted image 20251129143206.png]]
+![Pasted image 20251129143206.png](images/Pasted%20image%2020251129143206.png)
 
 And then I tuned out for the day, because the SPV1050 wiring took me absolutely forever!! I'm ready to start working on the actual antenna stuff now though, and I think I can lock in and get a bunch done at once!
 
@@ -86,7 +86,7 @@ There's a couple parts to this:
 
 So with that in mind, I did all the wiring :D 
 
-![[Pasted image 20251203184010.png]]
+![Pasted image 20251203184010.png](images/Pasted%20image%2020251203184010.png)
 
 You'll notice a couple strange things here, the first is the crystal which is used to create a very precise clock to generate the 900 MHz frequencies, it has built in load caps so you don't need any.
 
@@ -115,7 +115,7 @@ And then you'll be able to add your own sensors to customize it using the broken
 
 It's pretty easy to wire sensors, I did have to make/alter the symbols and go looking for some footprints, but it was relatively easy:
 
-![[Pasted image 20251204061734.png]]
+![Pasted image 20251204061734.png](images/Pasted%20image%2020251204061734.png)
 
 I decided to split the I2C for my BH1750 and the BME280 because I didn't want any extra programming overhead or to even possibly lose more energy on it.
 
@@ -123,7 +123,7 @@ And with that, I have all the fundamentals of the board in, and now I just have 
 
 I went through MANY iterations of the pins headers, intially going with a 2, 1x20 pin headers, into 2, 1x16 pin headers because a lot of pins and I wanted to fit a pi pico form factor, but I ended up going with a 2x20 header and match the pi zero 2w form factor!
 
-![[Pasted image 20251206135030.png]]
+![Pasted image 20251206135030.png](images/Pasted%20image%2020251206135030.png)
 
 I also added in the mounting holes, I made these grounded holes so that the RF signals wouldn't become parasitic radiators and might give a bit of shielding.
 
