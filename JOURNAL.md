@@ -121,4 +121,16 @@ I decided to split the I2C for my BH1750 and the BME280 because I didn't want an
 
 And with that, I have all the fundamentals of the board in, and now I just have to clean up the mistakes, add the pin headers and footprints, and route the board! 
 
+I went through MANY iterations of the pins headers, intially going with a 2, 1x20 pin headers, into 2, 1x16 pin headers because a lot of pins and I wanted to fit a pi pico form factor, but I ended up going with a 2x20 header and match the pi zero 2w form factor!
+
+![[Pasted image 20251206135030.png]]
+
+I also added in the mounting holes, I made these grounded holes so that the RF signals wouldn't become parasitic radiators and might give a bit of shielding.
+
+I had to completely move all the pins to make it the easiest possible routing when the time comes which was insanely time consuming, and I combined the I2C bus for the sensors to save some pins, and added in the USB programming!
+
+And with that, alongside some other minor changes and whatnot, the board schematic is complete!
+
+Tomorrow, I'm going to add in all the extra footprint, and hopefully get the entire layout and some routing in.
+
 
