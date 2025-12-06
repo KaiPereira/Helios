@@ -6022,7 +6022,7 @@
 	(footprint "Package_QFP:LQFP-48_7x7mm_P0.5mm"
 		(layer "F.Cu")
 		(uuid "30f2e6fc-008c-4042-8cde-c56e4f9c6d47")
-		(at 109.57 103.4)
+		(at 45 87)
 		(descr "LQFP, 48 Pin (JEDEC MS-026 variation BBC, 1.40mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-lqfp/05081760_a_lx48.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "LQFP QFP CASE-932AA CASE-932-03 C48-1 C48-2 C48-3 C48-5 C48-6 C48-6C PT0048A")
 		(property "Reference" "U1"
@@ -21249,17 +21249,6 @@
 		(layer "Edge.Cuts")
 		(uuid "612f52af-61d9-4414-82b3-e31c5c2ab0d9")
 	)
-	(gr_rect
-		(start 90 67)
-		(end 120 132)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "79218b4b-a1b2-48e2-b2d1-67fb4f67cfce")
-	)
 	(gr_arc
 		(start 93 132)
 		(mid 90.87868 131.12132)
@@ -21270,6 +21259,46 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "9f122377-1777-4943-97a6-b147e8088434")
+	)
+	(gr_line
+		(start 90 70)
+		(end 90 129)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ad462241-d856-47ec-a0cf-4f7870ce19e6")
+	)
+	(gr_line
+		(start 120 129)
+		(end 120 70)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b5f950b3-1859-42f6-83d5-2c32773b4e23")
+	)
+	(gr_line
+		(start 93 132)
+		(end 117 132)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d59c8b98-f811-4935-bc7a-63433fa80361")
+	)
+	(gr_line
+		(start 117 67)
+		(end 93 67)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e34e1ca3-428c-4db5-9393-162d6715f2d2")
 	)
 	(gr_arc
 		(start 117 67)
@@ -21283,12 +21312,14 @@
 		(uuid "f3ec5b5e-6211-4efd-b482-de36818e3e63")
 	)
 	(group ""
-		(uuid "5c06f259-69d4-4c90-8b3c-46f2d3c36651")
+		(uuid "2ad11e6d-9939-420b-b698-141fc37d653c")
 		(members "2988ed39-72cc-468a-a8da-df7ca323ab08" "35a7cbc9-3ad2-41ac-8e81-ac473d00cd71"
 			"4228b978-7115-4f81-be7c-a7778f4d258b" "4f3b0c23-1194-4c57-a1a2-4ef8859198ee"
-			"612f52af-61d9-4414-82b3-e31c5c2ab0d9" "79218b4b-a1b2-48e2-b2d1-67fb4f67cfce"
-			"7f556530-a670-455c-bf0a-36f8a540d19b" "9f122377-1777-4943-97a6-b147e8088434"
-			"bcbe14c4-491a-4ae4-9e56-452db30dd8f7" "f3ec5b5e-6211-4efd-b482-de36818e3e63"
+			"612f52af-61d9-4414-82b3-e31c5c2ab0d9" "7f556530-a670-455c-bf0a-36f8a540d19b"
+			"9f122377-1777-4943-97a6-b147e8088434" "ad462241-d856-47ec-a0cf-4f7870ce19e6"
+			"b5f950b3-1859-42f6-83d5-2c32773b4e23" "bcbe14c4-491a-4ae4-9e56-452db30dd8f7"
+			"d59c8b98-f811-4935-bc7a-63433fa80361" "e34e1ca3-428c-4db5-9393-162d6715f2d2"
+			"f3ec5b5e-6211-4efd-b482-de36818e3e63"
 		)
 	)
 	(embedded_fonts no)
