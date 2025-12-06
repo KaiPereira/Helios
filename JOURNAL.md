@@ -143,6 +143,8 @@ So I added in all the footprints which was generally pretty boring, and then I m
 
 You can see how all the pins nicely go onto the headers from the MCU which took me a long time to do in the schematic, but it's definitely worth it!
 
-Now I have to lay out all the components onto my PCB, to do this, I'll first make groups, and then slowly add those onto the board.
+Now I have to lay out all the components onto my PCB. To do this, I'll first make groups, and then slowly add those onto the board.
 
+![[Pasted image 20251206143840.png]]
 
+It's really messy right now, but this makes it much easier to see what components can fit where on the board really nicely! 
