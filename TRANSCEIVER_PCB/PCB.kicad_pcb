@@ -15301,11 +15301,11 @@
 	(footprint "easyeda2kicad:WQFN-20_L3.0-W3.0-P0.40-BL-EP1.7"
 		(layer "F.Cu")
 		(uuid "a8170255-7f2a-48d1-a48e-edb00210e0a3")
-		(at 108.5 88.1 -90)
+		(at 104.9 87.8 -90)
 		(property "Reference" "U3"
 			(at 0 -5.5 90)
 			(layer "F.SilkS")
-			(uuid "686837b0-0897-4f83-b648-4d487155e8ae")
+			(uuid "441ffaa0-1d3a-45a5-93de-634d8c322388")
 			(effects
 				(font
 					(size 1 1)
@@ -15316,7 +15316,7 @@
 		(property "Value" "SPV1050TTR"
 			(at 0 5.5 90)
 			(layer "F.Fab")
-			(uuid "717a7532-08e4-4321-a59c-3fa227907b95")
+			(uuid "396db552-ab99-49c7-b9f8-53572ec4696f")
 			(effects
 				(font
 					(size 1 1)
@@ -15328,7 +15328,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4c78a356-256e-4ad7-abaa-4ff291c20bc5")
+			(uuid "6d7c1173-4486-4056-8466-a9f11fad5b22")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15340,7 +15340,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4b680d54-98f3-4a8f-bd8e-a3e02187287b")
+			(uuid "1c74760c-994f-47ea-a0dc-f213b7932312")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16000,7 +16000,7 @@
 		(property "Reference" "C9"
 			(at 0 -4.35 90)
 			(layer "F.SilkS")
-			(uuid "b3e7fb7c-3162-47ed-b34a-a6f28d039821")
+			(uuid "81c773eb-65f0-47ee-9e04-6ad647b3f6d1")
 			(effects
 				(font
 					(size 1 1)
@@ -16011,7 +16011,7 @@
 		(property "Value" "47uF"
 			(at 0 4.35 90)
 			(layer "F.Fab")
-			(uuid "18354f85-8217-4b6b-844f-08aac50bf733")
+			(uuid "2010e400-445c-4eaa-98de-0bddbe9fa4ac")
 			(effects
 				(font
 					(size 1 1)
@@ -16023,7 +16023,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "08806b04-6903-4a77-aba9-6ec83cacb62f")
+			(uuid "51602b2d-a491-4c9c-8a4f-2a8e958a8dc1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16035,7 +16035,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "00f427ea-d4e6-4e87-b627-250e4cabafbc")
+			(uuid "989b2d74-03f6-414b-9543-05215896afb0")
 			(effects
 				(font
 					(size 1.27 1.27)
