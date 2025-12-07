@@ -4632,6 +4632,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "USB"
+			(at 68.58 52.9908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "STORE"
 		(shape input)
@@ -4690,6 +4700,16 @@
 		(uuid "d59d428d-01d4-49aa-8066-fc38db48e09f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 79.1852 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "USB"
+			(at 68.58 58.0708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
