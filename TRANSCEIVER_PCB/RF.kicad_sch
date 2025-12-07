@@ -799,272 +799,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Filter:0900FM15K0039"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FL"
-				(at -6.35 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "0900FM15K0039"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "RF_Converter:Balun_Johanson_0900FM15K0039"
-				(at 0 -9.525 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.johansontechnology.com/datasheets/0900FM15K0039/0900FM15K0039.pdf"
-				(at 0.635 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "868MHz/915MHz Sub-GHz Impedance Matched Filter integrated passive for Semtech SX1261, SX1262, LLCC68"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Sub-GHz filter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Balun*Johanson*0900FM15K0039*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0900FM15K0039_0_0"
-				(pin passive line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "RFO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "RFI_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "RFI_P"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "SW_RFO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "SW_RFI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "0900FM15K0039_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "RF:SX1262IMLTRT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1598,6 +1332,272 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "kai-library:0900FM15K0039"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FL"
+				(at -6.35 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0900FM15K0039"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "RF_Converter:Balun_Johanson_0900FM15K0039"
+				(at 0 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.johansontechnology.com/datasheets/0900FM15K0039/0900FM15K0039.pdf"
+				(at 0.635 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "868MHz/915MHz Sub-GHz Impedance Matched Filter integrated passive for Semtech SX1261, SX1262, LLCC68"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Sub-GHz filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Balun*Johanson*0900FM15K0039*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0900FM15K0039_0_0"
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "RFO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "RFI_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "RFI_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "SW_RFI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "SW_RFO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "0900FM15K0039_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -2510,16 +2510,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 76.2) (xy 185.42 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12d574a2-fbd8-4c7c-a1de-24e6a9e7e182")
-	)
-	(wire
-		(pts
 			(xy 161.29 66.04) (xy 161.29 72.39)
 		)
 		(stroke
@@ -2580,6 +2570,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 74.93) (xy 190.5 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "219ff9c2-2fe4-4dae-9080-60d13933b31e")
+	)
+	(wire
+		(pts
 			(xy 68.58 34.29) (xy 68.58 40.64)
 		)
 		(stroke
@@ -2617,6 +2617,16 @@
 			(type default)
 		)
 		(uuid "3492c098-0231-400e-93b2-803fe72d6dc9")
+	)
+	(wire
+		(pts
+			(xy 185.42 74.93) (xy 190.5 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37c23a0f-9880-42c3-9f23-09fc2be2f81c")
 	)
 	(wire
 		(pts
@@ -2730,16 +2740,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 71.12) (xy 185.42 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64aef6ea-6480-4801-bf77-71e446b63036")
-	)
-	(wire
-		(pts
 			(xy 220.98 96.52) (xy 222.25 96.52)
 		)
 		(stroke
@@ -2747,16 +2747,6 @@
 			(type default)
 		)
 		(uuid "6883eb49-839c-4f27-b70f-57a90650facf")
-	)
-	(wire
-		(pts
-			(xy 190.5 71.12) (xy 185.42 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69ab5b4f-e28f-4085-815e-d331655518b9")
 	)
 	(wire
 		(pts
@@ -2817,16 +2807,6 @@
 			(type default)
 		)
 		(uuid "7659efc1-6e8b-4446-b220-e832d58cbe50")
-	)
-	(wire
-		(pts
-			(xy 190.5 76.2) (xy 185.42 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7713b40b-efc6-43e7-917d-6f1d686416f6")
 	)
 	(wire
 		(pts
@@ -2917,6 +2897,16 @@
 			(type default)
 		)
 		(uuid "9969af0a-baa0-4bb8-be60-cbcd2dee3a02")
+	)
+	(wire
+		(pts
+			(xy 190.5 72.39) (xy 190.5 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a0d2f51-3b65-4d90-a233-c5a0492dec63")
 	)
 	(wire
 		(pts
@@ -3057,6 +3047,16 @@
 			(type default)
 		)
 		(uuid "c6b40ca4-a497-4dc8-8ca7-8f2ecd80bc81")
+	)
+	(wire
+		(pts
+			(xy 185.42 72.39) (xy 190.5 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c85752ea-d16e-41db-bf4e-252c44fb6cc1")
 	)
 	(wire
 		(pts
@@ -3567,6 +3567,98 @@
 			(project ""
 				(path "/9c08fd59-3255-435c-aa80-e4f1f895065c/ba3534da-3fb6-4419-8db5-6408ed4f4de1"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kai-library:0900FM15K0039")
+		(at 175.26 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e8f1b67-6ee7-4f32-8f65-fe6c27fbd776")
+		(property "Reference" "FL1"
+			(at 175.26 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0900FM15K0039"
+			(at 175.26 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RF_Converter:Balun_Johanson_0900FM15K0039"
+			(at 175.26 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.johansontechnology.com/datasheets/0900FM15K0039/0900FM15K0039.pdf"
+			(at 175.895 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "868MHz/915MHz Sub-GHz Impedance Matched Filter integrated passive for Semtech SX1261, SX1262, LLCC68"
+			(at 175.26 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "67f32eca-16c4-4480-a4af-91622955263e")
+		)
+		(pin "5"
+			(uuid "c80ba043-dedc-4fd5-8188-a37c66cdee47")
+		)
+		(pin "7"
+			(uuid "730b676d-f62e-4267-a33c-64819ceb1c7c")
+		)
+		(pin "8"
+			(uuid "f450405f-6271-44a9-b638-c86775fc6bcc")
+		)
+		(pin "2"
+			(uuid "0b2b2495-45f5-4384-a38e-52d5b407f612")
+		)
+		(pin "3"
+			(uuid "a0b93250-4dbd-4e72-ab59-c44188b52717")
+		)
+		(pin "4"
+			(uuid "0a8ee07f-0f94-432e-944f-88763efeecd0")
+		)
+		(pin "10"
+			(uuid "ddfbd06c-55c8-4881-bf3d-c64cff8045ec")
+		)
+		(pin "1"
+			(uuid "e02275b7-5f62-46f3-9f1c-3546ad2dbe3c")
+		)
+		(pin "6"
+			(uuid "ef499356-04a3-4a96-ba8a-87584893f83a")
+		)
+		(instances
+			(project ""
+				(path "/9c08fd59-3255-435c-aa80-e4f1f895065c/ba3534da-3fb6-4419-8db5-6408ed4f4de1"
+					(reference "FL1")
 					(unit 1)
 				)
 			)
@@ -4619,97 +4711,6 @@
 			(project "PCB"
 				(path "/9c08fd59-3255-435c-aa80-e4f1f895065c/ba3534da-3fb6-4419-8db5-6408ed4f4de1"
 					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Filter:0900FM15K0039")
-		(at 175.26 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a8085eeb-3143-4119-971b-8af7e2e8ed28")
-		(property "Reference" "FL1"
-			(at 175.26 65.532 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0900FM15D0039001E"
-			(at 175.006 68.072 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "RF_Converter:Balun_Johanson_0900FM15K0039"
-			(at 175.26 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.johansontechnology.com/datasheets/0900FM15K0039/0900FM15K0039.pdf"
-			(at 175.895 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "868MHz/915MHz Sub-GHz Impedance Matched Filter integrated passive for Semtech SX1261, SX1262, LLCC68"
-			(at 175.26 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "92caa575-1de6-4c3c-b214-c2664c02bf69")
-		)
-		(pin "9"
-			(uuid "27d4ade6-201a-49bd-8475-14795d2e8c75")
-		)
-		(pin "3"
-			(uuid "5d6640b6-9db4-41b1-951a-c2fdadd8b6b0")
-		)
-		(pin "1"
-			(uuid "510274f9-f100-41e7-831c-ddfbd91b4dd0")
-		)
-		(pin "6"
-			(uuid "dec17d92-cfc8-43d4-b030-960fb928b317")
-		)
-		(pin "4"
-			(uuid "982f4b18-58f5-4a37-90d4-bdfa96ad78ad")
-		)
-		(pin "2"
-			(uuid "033aee77-f584-45c7-95a6-f0f567332f8d")
-		)
-		(pin "10"
-			(uuid "08a90350-f072-41b1-998f-f1f34472d9f7")
-		)
-		(pin "7"
-			(uuid "20f4f036-bb52-44a0-968a-c106505aadc9")
-		)
-		(pin "8"
-			(uuid "0c342b2a-9ee2-48ab-8d0e-292610fd15b5")
-		)
-		(instances
-			(project ""
-				(path "/9c08fd59-3255-435c-aa80-e4f1f895065c/ba3534da-3fb6-4419-8db5-6408ed4f4de1"
-					(reference "FL1")
 					(unit 1)
 				)
 			)
