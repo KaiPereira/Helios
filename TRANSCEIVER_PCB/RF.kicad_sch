@@ -5,10 +5,7 @@
 	(uuid "34259231-16a7-4bb2-8b1d-bd93ba70619e")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:Antenna"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Connector:Conn_Coaxial_Small"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -16,22 +13,20 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "AE"
-				(at -1.905 1.905 0)
+			(property "Reference" "J"
+				(at 0.254 3.048 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
-			(property "Value" "Antenna"
-				(at -1.905 0 0)
+			(property "Value" "Conn_Coaxial_Small"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -52,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Antenna"
+			(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -61,7 +56,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "antenna"
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -70,25 +65,33 @@
 					(hide yes)
 				)
 			)
-			(symbol "Antenna_0_1"
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_Coaxial_Small_0_1"
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0 -3.81)
+						(xy -2.54 0) (xy -0.508 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0 -2.54) (xy -1.27 2.54)
-					)
+				(circle
+					(center 0 0)
+					(radius 0.508)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -96,11 +99,35 @@
 					)
 				)
 			)
-			(symbol "Antenna_1_1"
-				(pin input line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "A"
+			(symbol "Conn_Coaxial_Small_1_1"
+				(arc
+					(start 1.3484 0.0039)
+					(mid 0.327 -1.308)
+					(end -1.1916 -0.6311)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.1916 0.6311)
+					(mid 0.327 1.3081)
+					(end 1.3484 -0.0039)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "In"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -108,6 +135,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2323,6 +2368,12 @@
 		(uuid "28aebfc5-8a01-4a4b-9e4e-c93f47848814")
 	)
 	(junction
+		(at 203.2 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b47841b-b5fe-4637-aef7-866798ee8f01")
+	)
+	(junction
 		(at 161.29 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2353,22 +2404,16 @@
 		(uuid "bc2a2270-ec40-4170-a34c-c6b1b286c649")
 	)
 	(junction
-		(at 203.2 96.52)
+		(at 215.9 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cb660440-6b34-4a11-ac23-18416738d1bb")
+		(uuid "bf731984-a8f4-4197-a82a-0d0c09fbfc57")
 	)
 	(junction
 		(at 82.55 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db1fd89e-3530-44fe-97e2-87aee25d6fd1")
-	)
-	(junction
-		(at 222.25 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e21a23a7-11f7-4f4e-baf8-c9032900552d")
 	)
 	(junction
 		(at 240.03 73.66)
@@ -2530,16 +2575,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 78.74) (xy 222.25 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18fdf4cf-ab59-43e8-a1bb-5373e9f5f380")
-	)
-	(wire
-		(pts
 			(xy 138.43 77.47) (xy 165.1 77.47)
 		)
 		(stroke
@@ -2650,16 +2685,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 96.52) (xy 223.52 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3af7a2e4-2b37-4061-8b6b-d0151bf4aeb1")
-	)
-	(wire
-		(pts
 			(xy 240.03 73.66) (xy 232.41 73.66)
 		)
 		(stroke
@@ -2710,16 +2735,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 96.52) (xy 203.2 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d312ef7-db7d-4778-ae83-2462f20d586c")
-	)
-	(wire
-		(pts
 			(xy 82.55 41.91) (xy 82.55 40.64)
 		)
 		(stroke
@@ -2740,13 +2755,23 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 96.52) (xy 222.25 96.52)
+			(xy 213.36 95.25) (xy 215.9 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6883eb49-839c-4f27-b70f-57a90650facf")
+	)
+	(wire
+		(pts
+			(xy 203.2 88.9) (xy 203.2 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c0a437d-a450-44fa-9a0b-8bbbf51ec6ff")
 	)
 	(wire
 		(pts
@@ -2770,6 +2795,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 73.66) (xy 273.05 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7172999f-84e5-4d98-b7ce-de7b06902068")
+	)
+	(wire
+		(pts
 			(xy 45.72 38.1) (xy 43.18 38.1)
 		)
 		(stroke
@@ -2777,6 +2812,16 @@
 			(type default)
 		)
 		(uuid "72d53df1-d07c-4792-bb93-98cefd7ede1a")
+	)
+	(wire
+		(pts
+			(xy 203.2 95.25) (xy 205.74 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74257483-0c16-4ba6-a2b3-e302ae5e29c9")
 	)
 	(wire
 		(pts
@@ -2817,16 +2862,6 @@
 			(type default)
 		)
 		(uuid "7e7f4f77-4519-4923-99f6-16f96da14283")
-	)
-	(wire
-		(pts
-			(xy 204.47 96.52) (xy 203.2 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87bc652c-1c2f-45d4-8f42-27bc145fcc44")
 	)
 	(wire
 		(pts
@@ -2880,6 +2915,26 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 95.25) (xy 228.6 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94a23312-34b2-4680-ab51-2c99f7b69e02")
+	)
+	(wire
+		(pts
+			(xy 203.2 97.79) (xy 203.2 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97b9d23e-567d-4b4f-8f6e-77ff7808e8da")
+	)
+	(wire
+		(pts
 			(xy 55.88 96.52) (xy 58.42 96.52)
 		)
 		(stroke
@@ -2920,7 +2975,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 73.66) (xy 252.73 73.66)
+			(xy 262.89 73.66) (xy 252.73 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2957,6 +3012,16 @@
 			(type default)
 		)
 		(uuid "a6a039a6-b772-4476-9ca6-cce2c099f95b")
+	)
+	(wire
+		(pts
+			(xy 215.9 95.25) (xy 218.44 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a70dc3db-b3fa-4166-b2d2-76daea6b8362")
 	)
 	(wire
 		(pts
@@ -3040,16 +3105,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 96.52) (xy 213.36 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6b40ca4-a497-4dc8-8ca7-8f2ecd80bc81")
-	)
-	(wire
-		(pts
 			(xy 185.42 72.39) (xy 190.5 72.39)
 		)
 		(stroke
@@ -3060,7 +3115,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 78.74) (xy 222.25 96.52)
+			(xy 215.9 78.74) (xy 215.9 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3147,16 +3202,6 @@
 			(type default)
 		)
 		(uuid "e9bede43-cd1a-41a2-bb2a-67da6bbf2d5a")
-	)
-	(wire
-		(pts
-			(xy 203.2 88.9) (xy 203.2 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed2b16e9-b30a-434a-af0e-cb47ab391d85")
 	)
 	(wire
 		(pts
@@ -3310,6 +3355,28 @@
 	)
 	(global_label "SX_DIO2"
 		(shape bidirectional)
+		(at 228.6 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "46e78f92-d065-4570-8d62-bca72cb55fc8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.4979 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SX_DIO2"
+		(shape bidirectional)
 		(at 55.88 76.2 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3392,28 +3459,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SX_DIO2"
-		(shape bidirectional)
-		(at 223.52 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "939c796a-1da2-41ad-affc-9c652844ffb5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.4179 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3665,80 +3710,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Antenna")
-		(at 260.35 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "29aad567-8515-4c80-aea5-6135b3ad4ec8")
-		(property "Reference" "AE1"
-			(at 262.89 67.9449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Antenna"
-			(at 262.89 70.4849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:SMA_BAT_Wireless_BWSMA-KWE-Z001"
-			(at 260.35 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 260.35 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Antenna"
-			(at 260.35 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "BWSMA-KWE-Z001"
-			(at 272.034 72.898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e47928e5-6858-4dd4-9127-792095d2c754")
-		)
-		(instances
-			(project ""
-				(path "/9c08fd59-3255-435c-aa80-e4f1f895065c/ba3534da-3fb6-4419-8db5-6408ed4f4de1"
-					(reference "AE1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 246.38 73.66 90)
 		(unit 1)
@@ -3794,7 +3765,7 @@
 			(at 246.38 70.866 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.143 1.143)
 				)
 			)
 		)
@@ -3808,6 +3779,72 @@
 			(project ""
 				(path "/9c08fd59-3255-435c-aa80-e4f1f895065c/ba3534da-3fb6-4419-8db5-6408ed4f4de1"
 					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 273.05 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d1793c3-8d05-409b-8f51-1108e68145e0")
+		(property "Reference" "#PWR015"
+			(at 273.05 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 273.05 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 273.05 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a1d8514-bb55-4d99-a9b4-95ebab27af64")
+		)
+		(instances
+			(project ""
+				(path "/9c08fd59-3255-435c-aa80-e4f1f895065c/ba3534da-3fb6-4419-8db5-6408ed4f4de1"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3963,7 +4000,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 99.06 0)
+		(at 203.2 97.79 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3973,7 +4010,7 @@
 		(fields_autoplaced yes)
 		(uuid "56bb967b-265b-4041-981f-ee8ddd738d88")
 		(property "Reference" "#PWR046"
-			(at 203.2 105.41 0)
+			(at 203.2 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3982,7 +4019,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 104.14 0)
+			(at 203.2 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3990,7 +4027,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 99.06 0)
+			(at 203.2 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3999,7 +4036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 99.06 0)
+			(at 203.2 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4008,7 +4045,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 99.06 0)
+			(at 203.2 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4105,7 +4142,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 217.17 96.52 270)
+		(at 222.25 95.25 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4114,7 +4151,7 @@
 		(dnp no)
 		(uuid "743803c1-008a-468f-9d8c-e9ff971bb8ad")
 		(property "Reference" "R10"
-			(at 217.17 90.17 90)
+			(at 222.25 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4122,7 +4159,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 217.17 92.71 90)
+			(at 222.25 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4130,7 +4167,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 217.17 98.298 90)
+			(at 222.25 97.028 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4139,7 +4176,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 96.52 0)
+			(at 222.25 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4148,7 +4185,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 217.17 96.52 0)
+			(at 222.25 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4163,7 +4200,7 @@
 			(uuid "fe6353c4-800d-4391-905a-399a4db3956f")
 		)
 		(instances
-			(project ""
+			(project "PCB"
 				(path "/9c08fd59-3255-435c-aa80-e4f1f895065c/ba3534da-3fb6-4419-8db5-6408ed4f4de1"
 					(reference "R10")
 					(unit 1)
@@ -5189,7 +5226,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 208.28 96.52 270)
+		(at 209.55 95.25 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5198,7 +5235,7 @@
 		(dnp no)
 		(uuid "d5e9cc5b-bd53-48a1-9267-c5081e9ecada")
 		(property "Reference" "C22"
-			(at 208.28 90.17 90)
+			(at 209.55 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5206,7 +5243,7 @@
 			)
 		)
 		(property "Value" "1nF"
-			(at 208.28 92.71 90)
+			(at 209.55 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5214,7 +5251,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 204.47 95.5548 0)
+			(at 205.74 94.2848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5223,7 +5260,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 96.52 0)
+			(at 209.55 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5232,7 +5269,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 208.28 96.52 0)
+			(at 209.55 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5247,7 +5284,7 @@
 			(uuid "b9c5a7a9-4176-4e25-ac7c-69b024b80f01")
 		)
 		(instances
-			(project ""
+			(project "PCB"
 				(path "/9c08fd59-3255-435c-aa80-e4f1f895065c/ba3534da-3fb6-4419-8db5-6408ed4f4de1"
 					(reference "C22")
 					(unit 1)
@@ -5316,6 +5353,83 @@
 			(project ""
 				(path "/9c08fd59-3255-435c-aa80-e4f1f895065c/ba3534da-3fb6-4419-8db5-6408ed4f4de1"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 265.43 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eda6b778-062d-40d8-bdfb-011022eb9164")
+		(property "Reference" "J4"
+			(at 263.906 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LoRa Antenna"
+			(at 258.318 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_BAT_Wireless_BWSMA-KWE-Z001"
+			(at 265.43 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 265.43 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "BWSMA-KWE-Z001"
+			(at 265.176 70.866 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0fc8c241-a6e2-42b7-b881-494c80376daf")
+		)
+		(pin "2"
+			(uuid "1946aa46-4a10-4a80-9a0f-d4685550cd14")
+		)
+		(instances
+			(project "PCB"
+				(path "/9c08fd59-3255-435c-aa80-e4f1f895065c/ba3534da-3fb6-4419-8db5-6408ed4f4de1"
+					(reference "J4")
 					(unit 1)
 				)
 			)
