@@ -161,7 +161,7 @@ It's not my prettiest work, but I think it's one of my more practical works. So 
 - Making the board at least look decent
 - Made sure the RF trace was 50 ohm impedance (calculated this in the KiCad calculator!)
 
-![[Pasted image 20251208190312.png]]
+![Pasted image 20251208190312.png](images/Pasted%20image%2020251208190312.png)
 
 And just like that, we're pretty much done the project! 
 
