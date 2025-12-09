@@ -8866,10 +8866,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fce90b72-cc36-45fc-adb7-1c2b41ca5d63")
 		(property "Reference" "J1"
-			(at 49.53 27.94 0)
+			(at 49.53 25.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8877,7 +8876,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 49.53 30.48 0)
+			(at 49.53 28.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8909,6 +8908,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part" "TYPE-C-31-M-12"
+			(at 49.53 30.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "S1"
