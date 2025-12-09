@@ -159,9 +159,16 @@ It's not my prettiest work, but I think it's one of my more practical works. So 
 - Trying to keep my ground loops smaller. I've been trying to think of all my IC's and whatnot as squares and shapes, instead of just lines and minimizing the area of those shapes for more efficient routing. You can see this in spot like the decoupling caps, where I minimize the square, to minimize inductance
 - Keeping test pads accessible and clean
 - Making the board at least look decent
+- Made sure the RF trace was 50 ohm impedance (calculated this in the KiCad calculator!)
+
+![[Pasted image 20251208185241.png]]
 
 And just like that, we're pretty much done the project! 
 
 ![[Pasted image 20251208173649.png]]
 
 So after that, I generated the production files, and then sent it in the kicad discord server for a PCB review. I think the project turned out pretty good, wasn't my best idea to be honest, but I learned a lot, and it was good practice! 
+
+After all this, I created my readme and not I just have to get this thing production ready! I'm just going to be using JLCPCB, and it's a relatively simple board, so I'm not going to go into it much.
+
+If you got to this point, send me a message over at kaipereira2020@gmaIl.com :D 
