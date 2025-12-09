@@ -21,7 +21,7 @@ Helios is designed to be a low-cost PCB and is a 4 layer PCB, with a SIGNAL/GND/
 
 It's built off the STM32L072 MCU, using the SX1262 LoRa transceiver with the 0900FM filter and the PE4259 RF switch! It's a classic SMA antenna that broadcasts temperature, humidity, pressure and ambient light from the BME280 and BH1750! 
 
-The board can be powered off of USB-C, or solar powered battery charging with very minimal power usage!
+The board can be powered off of USB-C, or solar powered battery charging with the SPV1050 alongside very minimal power usage!
 
 <img width="2560" height="1403" alt="image" src="https://github.com/user-attachments/assets/b938e326-a254-41c2-b954-ac0939eb8c35" />
 <img width="2560" height="1406" alt="image" src="https://github.com/user-attachments/assets/f23da988-3b1c-4ee0-b8fb-17cf2ece0fbd" />
