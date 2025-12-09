@@ -25,10 +25,14 @@
             "id": "0e53cb6cc6376f38",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "JOURNAL.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "JOURNAL"
             }
           }
         ],
@@ -194,14 +198,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "0e53cb6cc6376f38",
+  "active": "e01344deb0574d50",
   "lastOpenFiles": [
+    "images/Pasted image 20251208173649.png",
+    "images/Pasted image 20251208173203.png",
+    "TRANSCEIVER_PCB/~PCB.kicad_pcb.lck",
+    "TRANSCEIVER_PCB/~PCB.kicad_pro.lck",
     "JOURNAL.md",
     "TRANSCEIVER_PCB/Pasted image 20251206143840.png",
     "Pasted image 20251206140810.png",
     "JOURNAL.md~",
     "images/Pasted image 20251206135030.png",
-    "TRANSCEIVER_PCB/~PCB.kicad_pcb.lck",
     "TRANSCEIVER_PCB/PCB-backups/PCB-2025-12-04_062211.zip",
     "images/Pasted image 20251204061734.png",
     "images/Pasted image 20251203184010.png",
@@ -213,9 +220,7 @@
     "TRANSCEIVER_PCB/_autosave-power.kicad_sch",
     "images/Pasted image 20251129143007.png",
     "images/Pasted image 20251129142350.png",
-    "images/Pasted image 20251129142222.png",
     "PCB/PCB-backups/PCB-2025-11-26_065019.zip",
-    "PCB/PCB-backups/PCB-2025-11-26_063724.zip",
-    "PCB/PCB-backups/PCB-2025-11-26_063220.zip"
+    "PCB/PCB-backups/PCB-2025-11-26_063724.zip"
   ]
 }
