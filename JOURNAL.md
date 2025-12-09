@@ -139,19 +139,19 @@ Today, I really wanted to get all the footprints in, get the form factor of the 
 
 So I added in all the footprints which was generally pretty boring, and then I made the zero 2w form factor using some fun layout techniques (mostly aligning):
 
-![[Pasted image 20251206140810.png]]
+![Pasted image 20251206140810.png](images/Pasted%20image%2020251206140810.png)
 
 You can see how all the pins nicely go onto the headers from the MCU which took me a long time to do in the schematic, but it's definitely worth it!
 
 Now I have to lay out all the components onto my PCB. To do this, I'll first make groups, and then slowly add those onto the board.
 
-![[Pasted image 20251206143840.png]]
+![Pasted image 20251206143840.png](images/Pasted%20image%2020251206143840.png)
 
 It's really messy right now, but this makes it much easier to see what components can fit where on the board really nicely! 
 
 After this, I absolutely locked in and cranked out this board in about a day so I'm just going to skip to the whole thing routed:
 
-![[Pasted image 20251208173203.png]]
+![Pasted image 20251208173203.png](images/Pasted%20image%2020251208173203.png)
 
 It's not my prettiest work, but I think it's one of my more practical works. So let's talk about a couple different parts here:
 - USB is a 90ohm differential pair, this doesn't really matter too much, but I did it anyways
@@ -161,11 +161,11 @@ It's not my prettiest work, but I think it's one of my more practical works. So 
 - Making the board at least look decent
 - Made sure the RF trace was 50 ohm impedance (calculated this in the KiCad calculator!)
 
-![[Pasted image 20251208185241.png]]
+![Pasted image 20251208185241.png](images/Pasted%20image%2020251208185241.png)
 
 And just like that, we're pretty much done the project! 
 
-![[Pasted image 20251208173649.png]]
+![Pasted image 20251208173649.png](images/Pasted%20image%2020251208173649.png)
 
 So after that, I generated the production files, and then sent it in the kicad discord server for a PCB review. I think the project turned out pretty good, wasn't my best idea to be honest, but I learned a lot, and it was good practice! 
 
