@@ -133,7 +133,7 @@ And with that, alongside some other minor changes and whatnot, the board schemat
 
 Tomorrow, I'm going to add in all the extra footprint, and hopefully get the entire layout and some routing in.
 
-## Day 4 - Footprint and PCB time
+## Day 4 - Footprint and PCB time - 7 Hours
 
 Today, I really wanted to get all the footprints in, get the form factor of the pi zero 2w and also layout all the components onto the board and maybe start some routing if I have time!
 
