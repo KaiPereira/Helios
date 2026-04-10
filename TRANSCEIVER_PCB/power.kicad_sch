@@ -3395,6 +3395,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "< Add LED"
+		(exclude_from_sim no)
+		(at 194.564 122.682 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "39a48cb9-1399-41cc-b11d-d1fce95b88c6")
+	)
 	(text "2 Charging Input, USB and Solar (CHRG)\n2 Power Outputs, energy harvester and LDO (3V3)"
 		(exclude_from_sim no)
 		(at 13.97 5.842 0)
