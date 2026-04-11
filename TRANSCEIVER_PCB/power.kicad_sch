@@ -6330,7 +6330,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+		(property "Datasheet" ""
 			(at 259.08 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -6341,7 +6341,7 @@
 				)
 			)
 		)
-		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
+		(property "Description" ""
 			(at 259.08 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -6808,7 +6808,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+		(property "Datasheet" ""
 			(at 182.88 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -6819,7 +6819,7 @@
 				)
 			)
 		)
-		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
+		(property "Description" ""
 			(at 182.88 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9529,7 +9529,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+		(property "Datasheet" ""
 			(at 91.44 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9540,7 +9540,7 @@
 				)
 			)
 		)
-		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
+		(property "Description" ""
 			(at 91.44 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9765,7 +9765,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+		(property "Datasheet" ""
 			(at 173.99 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -9776,7 +9776,7 @@
 				)
 			)
 		)
-		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
+		(property "Description" ""
 			(at 173.99 128.27 0)
 			(hide yes)
 			(show_name no)
