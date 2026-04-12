@@ -1734,7 +1734,7 @@
 			(uuid "21c7d2de-470c-4c30-a1dc-e7f33bac4153")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16786,7 +16786,7 @@
 			(at -1.5 7 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "bd494aef-2a56-497b-8341-04375dc840cc")
+			(uuid "2ad7cff8-4ab7-4eb7-90d7-b824c939e9d2")
 			(effects
 				(font
 					(size 1 1)
@@ -16797,7 +16797,7 @@
 		(property "Value" "LoRa Antenna"
 			(at -1.72 -7.11 0)
 			(layer "F.Fab")
-			(uuid "036fbd4d-38a7-4d61-b17a-12b98ad572c7")
+			(uuid "36ba867e-78f2-4971-ab05-a526d13b309e")
 			(effects
 				(font
 					(size 1 1)
@@ -16810,7 +16810,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1f80e27c-9543-4a6f-a9ed-b055872ac85a")
+			(uuid "88304f1b-8383-4e9f-b27b-6d75dd07c329")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16823,7 +16823,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "29081118-564e-4776-a750-730d1a09da76")
+			(uuid "10340680-2ba1-4010-857f-d0a3bcba3e88")
 			(effects
 				(font
 					(size 1.27 1.27)
