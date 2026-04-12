@@ -16785,6 +16785,7 @@
 		(property "Reference" "J4"
 			(at -1.5 7 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "bd494aef-2a56-497b-8341-04375dc840cc")
 			(effects
 				(font

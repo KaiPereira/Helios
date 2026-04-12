@@ -5904,7 +5904,7 @@
 				)
 			)
 		)
-		(property "Part" "BWSMA-KWE-Z001"
+		(property "Part" ""
 			(at 265.176 70.866 0)
 			(show_name no)
 			(do_not_autoplace no)
