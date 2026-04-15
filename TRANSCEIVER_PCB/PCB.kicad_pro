@@ -529,14 +529,7 @@
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "USB_D+": [
-        "USB"
-      ],
-      "USB_D-": [
-        "USB"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
