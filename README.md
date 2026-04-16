@@ -1,6 +1,6 @@
 # Helios - Solar Powered LoRa Weather Station
 
-<img width="2560" height="1401" alt="image" src="https://github.com/user-attachments/assets/9475a8b9-7bd5-4e7c-b144-1abf3334e8b4" />
+<img width="2560" height="1405" alt="image" src="https://github.com/user-attachments/assets/d7b09e14-7f52-4f15-a828-37077befd7e7" />
 
 Helios is a small, solar powered LoRa weather station, in Pi Zero 2W form factor! It's designed for extremely low power consumption, small price, expandability and hobby purposes! It has a couple onboard sensors for temperature, humidity, pressure and light, but it's mostly designed to be your own little customizable node!
 
@@ -17,7 +17,7 @@ Helios is a small, solar powered LoRa weather station, in Pi Zero 2W form factor
 
 Helios is designed to be a low-cost PCB and is a 4 layer PCB, with a SIGNAL/GND/PWR/SIGNAL stackup! 
 
-<img width="2560" height="1406" alt="image" src="https://github.com/user-attachments/assets/3f801285-8695-4700-af68-480738973c35" />
+<img width="2560" height="1404" alt="image" src="https://github.com/user-attachments/assets/558cc3f1-d812-403a-bca1-61831f168143" />
 
 It's built off the STM32L072 MCU, using the SX1262 LoRa transceiver with the 0900FM filter and the PE4259 RF switch! It's a classic SMA antenna that broadcasts temperature, humidity, pressure and ambient light from the BME280 and BH1750! 
 
