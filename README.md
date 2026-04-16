@@ -5,12 +5,12 @@
 Helios is a small, solar powered LoRa weather station, in Pi Zero 2W form factor! It's designed for extremely low power consumption, small price, expandability and hobby purposes! It has a couple onboard sensors for temperature, humidity, pressure and light, but it's mostly designed to be your own little customizable node!
 
 ## Custom Features
-- 150MHz to 960MHz LoRa SMA antenna
-- Solar powered battery charging up to 18V 
+- 150MHz to 960MHz LoRa SMA antenna, up to +22 dBm
+- Solar powered battery charging up to 18V
 - 300mA peak power consumption
 - Pi Zero 2W form factor
 - USB-C programming and power
-- 20 programmable GPIO's + Soil Sensor
+- 20 programmable GPIO's for expandability
 - Temperature, humidity, pressure and ambient light sensors
 
 ## PCB Design
