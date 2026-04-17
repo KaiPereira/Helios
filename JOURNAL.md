@@ -172,3 +172,32 @@ So after that, I generated the production files, and then sent it in the kicad d
 After all this, I created my readme and not I just have to get this thing production ready! I'm just going to be using JLCPCB, and it's a relatively simple board, so I'm not going to go into it much.
 
 If you got to this point, send me a message over at kaipereira2020@gmaIl.com :D 
+
+## Optimizing the board and making a BOM - 6 Hours
+
+I thought this project was done, but it actually wasn't. I took a look at the PCB and it didn't quite fit the standards I hold to my work. This could be a genuinely cool project, but I wasn't putting the thought into it.
+
+So let's get back into it and actually finish this project.
+
+The first thing I actually did was to fix up the routing, fills and some 3D models. The board looked bland on the top because it was missing a ground fill on the top and bottom which would make it look better and also clean up some of the noise inducted by the LoRa antenna. So this entailed: 
+- Adding a ground fill to the top and bottom
+- Tuning up some of the routing to be cleaner
+- Adding ground stitching along the whole board
+- Moving all the via-in-pads
+- Cleaning up the inductor and other fills to be significantly lower inductance and more optimal
+
+
+![[Pasted image 20260417165037.png]]
+![[Pasted image 20260417165042.png]]
+
+
+Next, the reason I couldn't get this project manufactured was because JLC didn't have many of the parts like the filter, SMA stuff and it was all EXTREMELY expensive because it was all extended parts. So I created an entire BOM in digikey for 2 boards which took me quite a long time and also had to replace a ton of the parts, notably the inductors for other parts because they weren't available on digikey!
+
+This also meant that I could get a ton of other components like my heatset inserts, spare connectors, just anything extra I would need for the project that didn't justify extra shipping!
+
+So with all of that, my board looks significantly better, and I actually have a BOM that's ready to buy and comes out to about $150, perfect!
+
+![[Pasted image 20260417165102.png]]
+
+Now this project is genuinely something I'm proud of, and is pretty gorgeous. The one thing I do wish that I had done, was making this whole thing cheaper. Now making it cheaper would've also made this easier. I could've just used a bunch of pre-made components and called it a day. But I definitely wouldn't have learned as much, so I'm honestly glad I spent the extra money, and time to learn matching networks, filters, etc. 
+## CAD and more BOM shenanigans - 4 Hours
