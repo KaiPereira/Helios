@@ -200,4 +200,21 @@ So with all of that, my board looks significantly better, and I actually have a 
 ![[Pasted image 20260417165102.png]]
 
 Now this project is genuinely something I'm proud of, and is pretty gorgeous. The one thing I do wish that I had done, was making this whole thing cheaper. Now making it cheaper would've also made this easier. I could've just used a bunch of pre-made components and called it a day. But I definitely wouldn't have learned as much, so I'm honestly glad I spent the extra money, and time to learn matching networks, filters, etc. 
+
 ## CAD and more BOM shenanigans - 4 Hours
+
+Now that my BOM was pretty much done, I wanted to work on something that could tangibly hold the devboard if I wanted to leave it outside or something. 
+
+I did a relatively simple design that took me a bit longer than I do want to admit, but I think it turned out really practical! It has a large hole for the antenna, some waterproofing design, and a little hole at the top for the solar panel.
+
+I really want to use this thing as a weather station for the my website, so this will allow me to do just that! I also got a little fancy and added some heatset inserts and modelled in the components, and it turned out pretty nice:
+
+![[Pasted image 20260417165540.png]]
+
+I added some other things to my BOM like the heatset inserts for this project, and the antenna, etc. And I also fixed some of the unavailable items like the crimps and whatnot.
+
+The case isn't the prettiest so I'll just include the files, and not show it off on my repository, but it's practical and gets the job done!
+
+I'm really proud with how I turned around this project. The polish and manufacturing was really getting to my head, and the experienced I've gained from my FPGA board really allowed me to get a final product I'm happy with.
+
+I'm definitely going to be exploring RF some more, because this was so much fun to tune up and I learned a ton from it!
