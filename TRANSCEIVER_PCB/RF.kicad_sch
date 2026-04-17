@@ -2512,6 +2512,12 @@
 		(uuid "f523ba23-fc60-4862-8633-0f89f4b58575")
 	)
 	(junction
+		(at 38.1 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d90263c-1b14-42d7-8277-5f923f5fc033")
+	)
+	(junction
 		(at 161.29 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2522,6 +2528,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28aebfc5-8a01-4a4b-9e4e-c93f47848814")
+	)
+	(junction
+		(at 20.32 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5576ed56-df25-44f7-bdbd-da9fcd4706fc")
 	)
 	(junction
 		(at 203.2 95.25)
@@ -2582,6 +2594,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6cb3bfb-f7b9-4792-8110-ba2d9575ed7b")
+	)
+	(junction
+		(at 38.1 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7e5afa6-c43b-44bf-a3ee-1b2ce0015c64")
 	)
 	(junction
 		(at 146.05 53.34)
@@ -2691,7 +2709,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 30.48) (xy 38.1 30.48)
+			(xy 54.61 30.48) (xy 38.1 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2738,6 +2756,16 @@
 			(type default)
 		)
 		(uuid "1b2d3913-19ef-4074-b553-179d6f2c1fdb")
+	)
+	(wire
+		(pts
+			(xy 20.32 49.53) (xy 20.32 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ca19bcb-02d5-4348-b232-6bb680c86b13")
 	)
 	(wire
 		(pts
@@ -2811,6 +2839,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 30.48) (xy 20.32 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3648bac0-25e7-4f5d-9387-1fb9978317b0")
+	)
+	(wire
+		(pts
 			(xy 71.12 46.99) (xy 71.12 48.26)
 		)
 		(stroke
@@ -2858,6 +2896,16 @@
 			(type default)
 		)
 		(uuid "45a4a50b-c7e0-45be-9732-85fbb1fe57c5")
+	)
+	(wire
+		(pts
+			(xy 31.75 46.99) (xy 38.1 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a598751-3839-42fd-ba2c-681c7df6a2b4")
 	)
 	(wire
 		(pts
@@ -2928,6 +2976,16 @@
 			(type default)
 		)
 		(uuid "6c0a437d-a450-44fa-9a0b-8bbbf51ec6ff")
+	)
+	(wire
+		(pts
+			(xy 20.32 46.99) (xy 24.13 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ecb80e0-7161-426f-8dc7-cacf9c353d66")
 	)
 	(wire
 		(pts
@@ -3201,6 +3259,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 30.48) (xy 20.32 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b20cea99-fdd9-4685-91ba-506094fb244f")
+	)
+	(wire
+		(pts
 			(xy 224.79 73.66) (xy 215.9 73.66)
 		)
 		(stroke
@@ -3331,7 +3399,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 46.99) (xy 38.1 46.99)
+			(xy 54.61 46.99) (xy 38.1 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3358,6 +3426,16 @@
 			(type default)
 		)
 		(uuid "e9bede43-cd1a-41a2-bb2a-67da6bbf2d5a")
+	)
+	(wire
+		(pts
+			(xy 31.75 30.48) (xy 38.1 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9d7b41a-16d6-47a4-97e0-703f5a1c0936")
 	)
 	(wire
 		(pts
@@ -3480,7 +3558,7 @@
 		(uuid "c18a51d5-055f-4436-a74a-e4f98ddfa847")
 	)
 	(label "SX_XTB"
-		(at 46.99 46.99 180)
+		(at 54.61 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3490,7 +3568,7 @@
 		(uuid "c8557f8f-7163-44e1-8d15-5456162ddd7e")
 	)
 	(label "SX_XTA"
-		(at 46.99 30.48 180)
+		(at 54.61 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4086,7 +4164,7 @@
 		(dnp no)
 		(uuid "416cad4b-5c23-4b32-afeb-d234af5d9d48")
 		(property "Reference" "Y2"
-			(at 35.306 27.94 90)
+			(at 35.306 33.274 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4096,7 +4174,7 @@
 			)
 		)
 		(property "Value" "32MHz"
-			(at 33.274 30.226 90)
+			(at 42.164 33.274 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4105,7 +4183,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
 			(at 38.1 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -4138,7 +4216,7 @@
 				)
 			)
 		)
-		(property "Part" "X322532MOB4SI"
+		(property "Part" ""
 			(at 28.702 32.766 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4243,6 +4321,83 @@
 			(project "PCB"
 				(path "/9c08fd59-3255-435c-aa80-e4f1f895065c/ba3534da-3fb6-4419-8db5-6408ed4f4de1"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 20.32 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4e703bd5-58bd-4769-b7bf-961e2e643c18")
+		(property "Reference" "#PWR052"
+			(at 20.32 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 20.32 53.594 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 20.32 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c736706e-549d-45db-9ac1-32d950cf0f1f")
+		)
+		(instances
+			(project "PCB"
+				(path "/9c08fd59-3255-435c-aa80-e4f1f895065c/ba3534da-3fb6-4419-8db5-6408ed4f4de1"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -4491,6 +4646,85 @@
 			(project "PCB"
 				(path "/9c08fd59-3255-435c-aa80-e4f1f895065c/ba3534da-3fb6-4419-8db5-6408ed4f4de1"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 27.94 30.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "75d801b3-da16-4377-9745-51dac15630fe")
+		(property "Reference" "C28"
+			(at 31.496 28.448 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "8pF"
+			(at 24.384 28.448 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 31.75 29.5148 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 27.94 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "74ec7ad1-61b2-451c-a507-9edc467e8545")
+		)
+		(pin "1"
+			(uuid "d9c601b0-2e5e-4b7a-8adf-fcf222c99083")
+		)
+		(instances
+			(project "PCB"
+				(path "/9c08fd59-3255-435c-aa80-e4f1f895065c/ba3534da-3fb6-4419-8db5-6408ed4f4de1"
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -5358,6 +5592,85 @@
 			(project "PCB"
 				(path "/9c08fd59-3255-435c-aa80-e4f1f895065c/ba3534da-3fb6-4419-8db5-6408ed4f4de1"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 27.94 46.99 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b9d240e9-6454-4b71-8e91-aed812297fa2")
+		(property "Reference" "C33"
+			(at 31.496 44.958 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "8pF"
+			(at 24.384 44.958 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 31.75 46.0248 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 27.94 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "071162df-3676-49bd-bf90-b67f9b66fbf9")
+		)
+		(pin "1"
+			(uuid "a8cd4c62-f9fd-4a61-a7e2-0b9472f60f2d")
+		)
+		(instances
+			(project "PCB"
+				(path "/9c08fd59-3255-435c-aa80-e4f1f895065c/ba3534da-3fb6-4419-8db5-6408ed4f4de1"
+					(reference "C33")
 					(unit 1)
 				)
 			)
