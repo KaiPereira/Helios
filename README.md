@@ -5,12 +5,12 @@
 Helios is a small, solar powered LoRa weather station, in Pi Zero 2W form factor! It's designed for extremely low power consumption, small price, expandability and hobby purposes! It has a couple onboard sensors for temperature, humidity, pressure and light, but it's mostly designed to be your own little customizable node!
 
 ## Custom Features
-- 150MHz to 960MHz LoRa SMA antenna
-- Solar powered battery charging up to 18V 
+- 150MHz to 960MHz LoRa SMA antenna, up to +22 dBm
+- Solar powered battery charging up to 18V
 - 300mA peak power consumption
 - Pi Zero 2W form factor
 - USB-C programming and power
-- 20 programmable GPIO's + Soil Sensor
+- 20 programmable GPIO's for expandability
 - Temperature, humidity, pressure and ambient light sensors
 
 ## PCB Design
@@ -27,3 +27,9 @@ The board can be powered off of USB-C, or solar powered battery charging with th
 <img width="2560" height="1406" alt="image" src="https://github.com/user-attachments/assets/f23da988-3b1c-4ee0-b8fb-17cf2ece0fbd" />
 <img width="2560" height="1402" alt="image" src="https://github.com/user-attachments/assets/73bb9cfa-c803-49cb-8532-408490759493" />
 <img width="2560" height="1405" alt="image" src="https://github.com/user-attachments/assets/9dd90fdd-9d13-44dd-9336-654e07615e78" />
+
+## Manufacturing
+
+The PCB is fairly simple to manufacture. You can get from their JLC or hand-solder it with a stencil and hotplate! If you want the board to be cheaper, just remove the sensors and other unnecessary things you don't need.
+
+The gerbers (PCB.zip), BOM and CPL are located in the [production folder](/TRANSCEIVER_PCB/production/), and there's also a link to the solar panels and battery I used for the project! 
