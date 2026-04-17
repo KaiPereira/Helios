@@ -187,8 +187,8 @@ The first thing I actually did was to fix up the routing, fills and some 3D mode
 - Cleaning up the inductor and other fills to be significantly lower inductance and more optimal
 
 
-![[Pasted image 20260417165037.png]]
-![[Pasted image 20260417165042.png]]
+![Pasted image 20260417165037.png](images/Pasted%20image%2020260417165037.png)
+![Pasted image 20260417165042.png](images/Pasted%20image%2020260417165042.png)
 
 
 Next, the reason I couldn't get this project manufactured was because JLC didn't have many of the parts like the filter, SMA stuff and it was all EXTREMELY expensive because it was all extended parts. So I created an entire BOM in digikey for 2 boards which took me quite a long time and also had to replace a ton of the parts, notably the inductors for other parts because they weren't available on digikey!
@@ -197,7 +197,7 @@ This also meant that I could get a ton of other components like my heatset inser
 
 So with all of that, my board looks significantly better, and I actually have a BOM that's ready to buy and comes out to about $150, perfect!
 
-![[Pasted image 20260417165102.png]]
+![Pasted image 20260417165102.png](images/Pasted%20image%2020260417165102.png)
 
 Now this project is genuinely something I'm proud of, and is pretty gorgeous. The one thing I do wish that I had done, was making this whole thing cheaper. Now making it cheaper would've also made this easier. I could've just used a bunch of pre-made components and called it a day. But I definitely wouldn't have learned as much, so I'm honestly glad I spent the extra money, and time to learn matching networks, filters, etc. 
 
@@ -209,7 +209,7 @@ I did a relatively simple design that took me a bit longer than I do want to adm
 
 I really want to use this thing as a weather station for the my website, so this will allow me to do just that! I also got a little fancy and added some heatset inserts and modelled in the components, and it turned out pretty nice:
 
-![[Pasted image 20260417165540.png]]
+![Pasted image 20260417165540.png](images/Pasted%20image%2020260417165540.png)
 
 I added some other things to my BOM like the heatset inserts for this project, and the antenna, etc. And I also fixed some of the unavailable items like the crimps and whatnot.
 
