@@ -35,3 +35,7 @@ The PCB is fairly simple to manufacture. You can get from their JLC or hand-sold
 The gerbers (PCB.zip), BOM and CPL are located in the [production folder](/TRANSCEIVER_PCB/production/), and there's also a link to the solar panels and battery I used for the project! 
 
 I've created a very minimal case for this project if you want to keep it waterproof while having it active outside, and you can view all the files for that in the [CAD folder](https://github.com/KaiPereira/Helios/tree/master/CAD)! Here's an [Onshape link](https://cad.onshape.com/documents/da47fca73387cbfcd2fcd0da/w/e0853c342d07596ecafe782f/e/20c20d8fae7f9e025aea9deb?renderMode=0&uiState=69e2c1399592b2bbbb38fdc5) too!
+
+## Firmware
+
+The boards can run meshatastic or LoRaWAN! It's fairly complicated to setup, so I'll add the firmware to the repository once I've received the boards (soon :D)! 
