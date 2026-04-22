@@ -201,7 +201,7 @@ So with all of that, my board looks significantly better, and I actually have a 
 
 Now this project is genuinely something I'm proud of, and is pretty gorgeous. The one thing I do wish that I had done, was making this whole thing cheaper. Now making it cheaper would've also made this easier. I could've just used a bunch of pre-made components and called it a day. But I definitely wouldn't have learned as much, so I'm honestly glad I spent the extra money, and time to learn matching networks, filters, etc. 
 
-## CAD and more BOM shenanigans - 4 Hours
+## CAD and more BOM shenanigans - 8 Hours
 
 Now that my BOM was pretty much done, I wanted to work on something that could tangibly hold the devboard if I wanted to leave it outside or something. 
 
@@ -212,6 +212,10 @@ I really want to use this thing as a weather station for the my website, so this
 ![Pasted image 20260417165540.png](images/Pasted%20image%2020260417165540.png)
 
 I added some other things to my BOM like the heatset inserts for this project, and the antenna, etc. And I also fixed some of the unavailable items like the crimps and whatnot.
+
+Now that I've actually created my BOM, I wanted to get a sponsorship from PCBWay. My board is quite complicated, and costs a lot from digikey, so getting PCBWay to sponsor maybe $150, would go an absolutely long way and then I wouldn't even need to hand solder the board! PCBWay was already asking to do a sponsorship with me, but I didn't realize that they accepted digikey BOM's, so after making some alterations they asked for like what was up with some of the loose parts, and DNP's, they finally sponsored me for $150!
+
+It took quite a long time to get this through, but I'm really glad I got the project sponsored because now I can get 5 boards instead of just 2! 
 
 The case isn't the prettiest so I'll just include the files, and not show it off on my repository, but it's practical and gets the job done!
 
