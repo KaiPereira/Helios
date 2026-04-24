@@ -39,3 +39,7 @@ I've created a very minimal case for this project if you want to keep it waterpr
 ## Firmware
 
 The boards can run meshatastic or LoRaWAN! It's fairly complicated to setup, so I'll add the firmware to the repository once I've received the boards (soon :D)! 
+
+## Contributions
+
+Thanks so much to PCBWay and Hack Club for sponsoring this project! Another big thanks to the guys in the KiCad discord server for their help and reviews of the board :D
