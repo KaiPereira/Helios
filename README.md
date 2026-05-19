@@ -1,6 +1,6 @@
 # Helios - Solar Powered LoRa Weather Station
 
-<img max-width="2560" max-height="1150" alt="image" src="https://cdn.hackclub.com/019e4065-1e0b-7ac5-b3e7-57007a768ab9/image_from_ios.jpg" /!
+<img max-width="2560" max-height="1150" alt="image" src="https://cdn.hackclub.com/019e4065-1e0b-7ac5-b3e7-57007a768ab9/image_from_ios.jpg" />
 
 Helios is a small, solar powered LoRa weather station, in Pi Zero 2W form factor! It's designed for extremely low power consumption, small price, expandability and hobby purposes! It has a couple onboard sensors for temperature, humidity, pressure and light, but it's mostly designed to be your own little customizable node!
 
