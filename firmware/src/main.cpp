@@ -15,6 +15,12 @@ int SX_DIO_1 = PA0;
 SPIClass SPI_LORA(SX_MOSI, SX_MISO, SX_SCLK);
 SX1262 radio = new Module(SX_NSS, SX_DIO_1, SX_RESET, SX_BUSY, SPI_LORA);
 
+volatile bool receivedFlag = false;
+
+void setFlag(void) {
+	receivedFlag = true;
+}
+
 void setup() {
 	Serial.begin(115200);
 
@@ -34,13 +40,47 @@ void setup() {
 		Serial.print(F("Failed!"));
 		Serial.println(state);
 	}
+
+	radio.setDio2AsRfSwitch(true);
+	radio.setPacketReceivedAction(setFlag);
+
+	Serial.print(F("[SX1262] Listening..."));
+	state = radio.startReceive();
+
+	if (state == RADIOLIB_ERR_NONE) {
+		Serial.println(F("Success!"));
+	} else {
+		Serial.print(F("Failed!"));
+		Serial.println(state);
+	}
 }
 
 void loop() {
-	int state = radio.transmit("Hello from Helios!");
+	if (receivedFlag) {
+		receivedFlag = false;
 
-	Serial.print(F("[SX1262] TX: "));
-	Serial.println(state == RADIOLIB_ERR_NONE ? F("sent") : F("failed"));
-	
-	delay(5000);
+		String str;
+		int state = radio.readData(str);
+
+		if (state == RADIOLIB_ERR_NONE) {
+			Serial.print(F("[SX1262] RX: "));
+			Serial.println(str);
+
+			Serial.print(F("  RSSI: "));
+			Serial.print(radio.getRSSI());
+			Serial.println(F(" dBm"));
+
+			Serial.print(F("  SNR:  "));
+			Serial.print(radio.getSNR());
+			Serial.println(F(" dB"));
+		} else if (state == RADIOLIB_ERR_CRC_MISMATCH) {
+			Serial.println(F("[SX1262] CRC error, packet corrupted"));
+		} else {
+			Serial.print(F("[SX1262] Receive failed, code "));
+			Serial.println(state);
+		}
+
+		// Go back to listening for the next packet
+		radio.startReceive();
+	}
 }
