@@ -37,5 +37,10 @@ void setup() {
 }
 
 void loop() {
+	int state = radio.transmit("Hello from Helios!");
 
+	Serial.print(F("[SX1262] TX: "));
+	Serial.println(state == RADIOLIB_ERR_NONE ? F("sent") : F("failed"));
+	
+	delay(5000);
 }

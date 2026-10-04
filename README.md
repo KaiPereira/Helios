@@ -39,7 +39,11 @@ I've created a very minimal case for this project if you want to keep it waterpr
 
 ## Firmware
 
-The boards can run meshatastic or LoRaWAN! It's fairly complicated to setup, so I'll add the firmware to the repository once I've received the boards (soon :D)! 
+Programming the board is really simple! Customize the firmware to your liking, plug in the USB-C and then run:
+
+```
+pio run -t upload
+```
 
 ## Contributions
 
