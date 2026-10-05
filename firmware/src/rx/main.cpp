@@ -1,19 +1,4 @@
-#include <Arduino.h>
-#include <SPI.h>
-#include <RadioLib.h>
-
-ConfigLoRa_t config;
-
-int SX_SCLK = PB13;
-int SX_MISO = PB14;
-int SX_MOSI = PB15;
-int SX_NSS = PB12;
-int SX_BUSY = PA2;
-int SX_RESET = PA1;
-int SX_DIO_1 = PA0;
-
-SPIClass SPI_LORA(SX_MOSI, SX_MISO, SX_SCLK);
-SX1262 radio = new Module(SX_NSS, SX_DIO_1, SX_RESET, SX_BUSY, SPI_LORA);
+#include "RadioConfig.h"
 
 volatile bool receivedFlag = false;
 
@@ -41,7 +26,7 @@ void setup() {
 		Serial.println(state);
 	}
 
-	radio.setDio2AsRfSwitch(true);
+	radio.setDio2AsRfSwitch(true); // Sets the RF switch to receive
 	radio.setPacketReceivedAction(setFlag);
 
 	Serial.print(F("[SX1262] Listening..."));
@@ -60,10 +45,10 @@ void loop() {
 		receivedFlag = false;
 
 		String str;
-		int state = radio.readData(str);
+		int state = radio.readData(str); // Reads data into the str
 
 		if (state == RADIOLIB_ERR_NONE) {
-			Serial.print(F("[SX1262] RX: "));
+			Serial.print(F("[SX1262] Receiving: "));
 			Serial.println(str);
 
 			Serial.print(F("  RSSI: "));
@@ -74,13 +59,12 @@ void loop() {
 			Serial.print(radio.getSNR());
 			Serial.println(F(" dB"));
 		} else if (state == RADIOLIB_ERR_CRC_MISMATCH) {
-			Serial.println(F("[SX1262] CRC error, packet corrupted"));
+			Serial.println(F("[SX1262] Packet Corrupted"));
 		} else {
-			Serial.print(F("[SX1262] Receive failed, code "));
+			Serial.print(F("[SX1262] Failed: "));
 			Serial.println(state);
 		}
 
-		// Go back to listening for the next packet
 		radio.startReceive();
 	}
 }
