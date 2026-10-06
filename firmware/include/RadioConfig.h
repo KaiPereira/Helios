@@ -17,5 +17,10 @@ const int SENSOR_SCL = PA9;
 const uint8_t BME280_ADDR = 0x76;
 const uint8_t BH1750_ADDR = 0x23;
 
+// different frequencies to prevent interference
+// Standard about 915 for North America
+const float NODE_CHANNEL = 915.0;
+const float LINK_CHANNEL = 916.0;
+
 SPIClass SPI_LORA(SX_MOSI, SX_MISO, SX_SCLK);
 SX1262 radio = new Module(SX_NSS, SX_DIO_1, SX_RESET, SX_BUSY, SPI_LORA);

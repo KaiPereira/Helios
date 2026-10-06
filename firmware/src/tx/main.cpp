@@ -4,11 +4,18 @@
 #include <Adafruit_Sensor.h>
 #include <Wire.h>
 
+// Macro to make each device id easy to name
+#ifndef NODE_ID
+#error "NODE_ID not set, please set one using -D NODE_ID=<number> to your build flags"
+#endif
+
 Adafruit_BME280 bme280;
 BH1750 bh1750;
 
 bool bme280_state;
 bool bh1750_state;
+
+uint32_t messageCount = 0;
 
 void setup() {
 	Serial.begin(115200);
@@ -38,7 +45,7 @@ void setup() {
 	// LoRa Radio
 	radio.tcxoVoltage = 0; // Using an external crystal so set to 0V
 
-	config.frequency = 915; // 915 for America/US
+	config.frequency = NODE_CHANNEL;
 	
 	Serial.print(F("[SX1262] Starting Up..."));
 
@@ -55,23 +62,18 @@ void setup() {
 void loop() {
 	String message;
 
+	String msg = "id=" + String(NODE_ID) + " n=" + String(messageCount++);
+ 
 	if (bme280_state) {
-		message += "T=" + String(bme280.readTemperature(), 1) + "C ";
-		message += "H=" + String(bme280.readHumidity(), 1) + "% ";
-		message += "P=" + String(bme280.readPressure() / 100.0F, 1) + "hPa ";
+		msg += " T=" + String(bme280.readTemperature(), 1);
+		msg += " H=" + String(bme280.readHumidity(), 1);
+		msg += " P=" + String(bme280.readPressure() / 100.0F, 1);
 	}
-
+ 
 	if (bh1750_state) {
-		message += "L=" + String(bh1750.readLightLevel(), 1) + "lx";
+		msg += " L=" + String(bh1750.readLightLevel(), 1);
 	}
 
-	message.trim();
-
-	if (message.length() == 0) {
-		message = "No sensor data";
-	}
-
-	Serial.print(F("Sensor Data: "));
 	Serial.println(message);
 
 	int radio_state = radio.transmit(message);
