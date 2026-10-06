@@ -17,7 +17,9 @@ void setup() {
 
 	
 	// Sensors
-	Wire.begin(SENSOR_SDA, SENSOR_SCL);
+	Wire.setSDA(SENSOR_SDA);
+	Wire.setSCL(SENSOR_SCL);
+	Wire.begin();
 	
 	Serial.println(F("[BME280] Starting Up..."));
 
@@ -69,7 +71,7 @@ void loop() {
 		message = "No sensor data";
 	}
 
-	Serial.print(F("Sensor Data:"));
+	Serial.print(F("Sensor Data: "));
 	Serial.println(message);
 
 	int radio_state = radio.transmit(message);
